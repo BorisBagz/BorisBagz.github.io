@@ -1,5 +1,5 @@
 body {
-  background-color: #004177;
+  background-color: #03758D;
 }
 
 h1 {
@@ -21,10 +21,152 @@ p {
   width: 50%;
 }
 
-.sansserif {
-  font-family: Arial, Helvetica, sans-serif;
+/*BEGINNING FONTS*/
+.ubunturegular {
+  font-family: "ubunturegular";
 }
 
-.monospace {
-  font-family: "Lucida Console", Courier, monospace;
+.ubuntubold {
+  font-family: "ubuntubold";
 }
+
+.ubuntubold_italic {
+  font-family: "ubuntubold_italic";
+}
+
+.ubuntuitalic {
+  font-family: "ubuntuitalic";
+}
+
+.ubuntulight {
+  font-family: "ubuntulight";
+}
+
+.ubuntulight_italic {
+  font-family: "ubuntulight_italic";
+}
+
+.ubuntumedium {
+  font-family: "ubuntumedium";
+}
+
+.ubuntumedium_italic {
+  font-family: "ubuntumedium_italic";
+}
+
+@font-face {
+    font-family: 'ubunturegular';
+    src: url('fonts/ubuntu/ubuntu-regular-webfont.woff2') format('woff2'),
+         url('fonts/ubuntu/ubuntu-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ubuntubold';
+    src: url('fonts/ubuntu/ubuntu-bold-webfont.woff2') format('woff2'),
+         url('fonts/ubuntu/ubuntu-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ubuntubold_italic';
+    src: url('fonts/ubuntu/ubuntu-bolditalic-webfont.woff2') format('woff2'),
+         url('fonts/ubuntu/ubuntu-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ubuntuitalic';
+    src: url('fonts/ubuntu/ubuntu-italic-webfont.woff2') format('woff2'),
+         url('fonts/ubuntu/ubuntu-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ubuntulight';
+    src: url('fonts/ubuntu/ubuntu-light-webfont.woff2') format('woff2'),
+         url('fonts/ubuntu/ubuntu-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ubuntulight_italic';
+    src: url('fonts/ubuntu/ubuntu-lightitalic-webfont.woff2') format('woff2'),
+         url('fonts/ubuntu/ubuntu-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ubuntumedium';
+    src: url('fonts/ubuntu/ubuntu-medium-webfont.woff2') format('woff2'),
+         url('fonts/ubuntu/ubuntu-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ubuntumedium_italic';
+    src: url('fonts/ubuntu/ubuntu-mediumitalic-webfont.woff2') format('woff2'),
+         url('fonts/ubuntu/ubuntu-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*END FONTS*/
+
+/*BEGINNING FLOATING MENU*/
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li:last-child {
+  border-right: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+  background-color: #0A273F;
+}
+
+ul.topnav li a.active {
+  background-color: #01B0C9;
+}
+
+ul.topnav li.right {
+  float: right;
+}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right,
+  ul.topnav li {float: none;}
+}
+/*END FLOATING MENU*/
