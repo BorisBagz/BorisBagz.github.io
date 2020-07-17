@@ -21,112 +21,6 @@ p {
   width: 50%;
 }
 
-/*BEGINNING FONTS*/
-.ubunturegular {
-  font-family: "ubunturegular";
-}
-
-.ubuntubold {
-  font-family: "ubuntubold";
-}
-
-.ubuntubold_italic {
-  font-family: "ubuntubold_italic";
-}
-
-.ubuntuitalic {
-  font-family: "ubuntuitalic";
-}
-
-.ubuntulight {
-  font-family: "ubuntulight";
-}
-
-.ubuntulight_italic {
-  font-family: "ubuntulight_italic";
-}
-
-.ubuntumedium {
-  font-family: "ubuntumedium";
-}
-
-.ubuntumedium_italic {
-  font-family: "ubuntumedium_italic";
-}
-
-@font-face {
-    font-family: 'ubunturegular';
-    src: url('fonts/ubuntu/ubuntu-regular-webfont.woff2') format('woff2'),
-         url('fonts/ubuntu/ubuntu-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'ubuntubold';
-    src: url('fonts/ubuntu/ubuntu-bold-webfont.woff2') format('woff2'),
-         url('fonts/ubuntu/ubuntu-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'ubuntubold_italic';
-    src: url('fonts/ubuntu/ubuntu-bolditalic-webfont.woff2') format('woff2'),
-         url('fonts/ubuntu/ubuntu-bolditalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'ubuntuitalic';
-    src: url('fonts/ubuntu/ubuntu-italic-webfont.woff2') format('woff2'),
-         url('fonts/ubuntu/ubuntu-italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'ubuntulight';
-    src: url('fonts/ubuntu/ubuntu-light-webfont.woff2') format('woff2'),
-         url('fonts/ubuntu/ubuntu-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'ubuntulight_italic';
-    src: url('fonts/ubuntu/ubuntu-lightitalic-webfont.woff2') format('woff2'),
-         url('fonts/ubuntu/ubuntu-lightitalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'ubuntumedium';
-    src: url('fonts/ubuntu/ubuntu-medium-webfont.woff2') format('woff2'),
-         url('fonts/ubuntu/ubuntu-medium-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'ubuntumedium_italic';
-    src: url('fonts/ubuntu/ubuntu-mediumitalic-webfont.woff2') format('woff2'),
-         url('fonts/ubuntu/ubuntu-mediumitalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-/*END FONTS*/
-
 /*BEGINNING FLOATING MENU*/
 ul.topnav {
   list-style-type: none;
@@ -170,3 +64,198 @@ ul.topnav li.right {
   ul.topnav li {float: none;}
 }
 /*END FLOATING MENU*/
+
+/*BEGINNING FONTS*/
+.ubunturegular {
+  font-family: "ubunturegular";
+}
+
+.ubuntubold {
+  font-family: "ubuntubold";
+}
+
+.ubuntubold_italic {
+  font-family: "ubuntubold_italic";
+}
+
+.ubuntuitalic {
+  font-family: "ubuntuitalic";
+}
+
+.ubuntulight {
+  font-family: "ubuntulight";
+}
+
+.ubuntulight_italic {
+  font-family: "ubuntulight_italic";
+}
+
+.ubuntumedium {
+  font-family: "ubuntumedium";
+}
+
+.ubuntumedium_italic {
+  font-family: "ubuntumedium_italic";
+}
+
+.cabinbold_italic {
+  font-family: "cabinbold_italic";
+}
+
+@font-face {
+    font-family: 'ubunturegular';
+    src: url('fonts/ubuntu/ubuntu-regular-webfont.woff2') format('woff2'),
+         url('fonts/ubuntu/ubuntu-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubuntubold';
+    src: url('fonts/ubuntu/ubuntu-bold-webfont.woff2') format('woff2'),
+         url('fonts/ubuntu/ubuntu-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubuntubold_italic';
+    src: url('fonts/ubuntu/ubuntu-bolditalic-webfont.woff2') format('woff2'),
+         url('fonts/ubuntu/ubuntu-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubuntuitalic';
+    src: url('fonts/ubuntu/ubuntu-italic-webfont.woff2') format('woff2'),
+         url('fonts/ubuntu/ubuntu-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubuntulight';
+    src: url('fonts/ubuntu/ubuntu-light-webfont.woff2') format('woff2'),
+         url('fonts/ubuntu/ubuntu-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubuntulight_italic';
+    src: url('fonts/ubuntu/ubuntu-lightitalic-webfont.woff2') format('woff2'),
+         url('fonts/ubuntu/ubuntu-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubuntumedium';
+    src: url('fonts/ubuntu/ubuntu-medium-webfont.woff2') format('woff2'),
+         url('fonts/ubuntu/ubuntu-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubuntumedium_italic';
+    src: url('fonts/ubuntu/ubuntu-mediumitalic-webfont.woff2') format('woff2'),
+         url('fonts/ubuntu/ubuntu-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.cabinbold {
+  font-family: "cabinbold";
+}
+
+.cabinsemibold_italic {
+  font-family: "cabinsemibold_italic";
+}
+
+.cabinsemibold {
+  font-family: "cabinsemibold";
+}
+
+.cabinmedium_italic {
+  font-family: "cabinmedium_italic";
+}
+
+.cabinmedium {
+  font-family: "cabinmedium";
+}
+
+.cabinitalic {
+  font-family: "cabinitalic";
+}
+
+.cabinregular {
+  font-family: "cabinregular";
+}
+
+@font-face {
+    font-family: 'cabinbold_italic';
+    src: url('fonts/cabin/cabin-bolditalic-webfont.woff2') format('woff2'),
+         url('fonts/cabin/cabin-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cabinbold';
+    src: url('fonts/cabin/cabin-bold-webfont.woff2') format('woff2'),
+         url('fonts/cabin/cabin-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cabinsemibold_italic';
+    src: url('fonts/cabin/cabin-semibolditalic-webfont.woff2') format('woff2'),
+         url('fonts/cabin/cabin-semibolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cabinsemibold';
+    src: url('fonts/cabin/cabin-semibold-webfont.woff2') format('woff2'),
+         url('fonts/cabin/cabin-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cabinmedium_italic';
+    src: url('fonts/cabin/cabin-mediumitalic-webfont.woff2') format('woff2'),
+         url('fonts/cabin/cabin-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cabinmedium';
+    src: url('fonts/cabin/cabin-medium-webfont.woff2') format('woff2'),
+         url('fonts/cabin/cabin-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cabinitalic';
+    src: url('fonts/cabin/cabin-italic-webfont.woff2') format('woff2'),
+         url('fonts/cabin/cabin-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'cabinregular';
+    src: url('fonts/cabin/cabin-regular-webfont.woff2') format('woff2'),
+         url('fonts/cabin/cabin-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*END FONTS*/
