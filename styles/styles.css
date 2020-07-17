@@ -14,6 +14,23 @@ p {
   color: #fdfdfd;
 }
 
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
 .center {
   display: block;
   margin-left: auto;
@@ -106,6 +123,34 @@ ul.topnav li.right {
   font-family: "cabinbold_italic";
 }
 
+.cabinbold {
+  font-family: "cabinbold";
+}
+
+.cabinsemibold_italic {
+  font-family: "cabinsemibold_italic";
+}
+
+.cabinsemibold {
+  font-family: "cabinsemibold";
+}
+
+.cabinmedium_italic {
+  font-family: "cabinmedium_italic";
+}
+
+.cabinmedium {
+  font-family: "cabinmedium";
+}
+
+.cabinitalic {
+  font-family: "cabinitalic";
+}
+
+.cabinregular {
+  font-family: "cabinregular";
+}
+
 @font-face {
     font-family: 'ubunturegular';
     src: url('fonts/ubuntu/ubuntu-regular-webfont.woff2') format('woff2'),
@@ -168,34 +213,6 @@ ul.topnav li.right {
          url('fonts/ubuntu/ubuntu-mediumitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}
-
-.cabinbold {
-  font-family: "cabinbold";
-}
-
-.cabinsemibold_italic {
-  font-family: "cabinsemibold_italic";
-}
-
-.cabinsemibold {
-  font-family: "cabinsemibold";
-}
-
-.cabinmedium_italic {
-  font-family: "cabinmedium_italic";
-}
-
-.cabinmedium {
-  font-family: "cabinmedium";
-}
-
-.cabinitalic {
-  font-family: "cabinitalic";
-}
-
-.cabinregular {
-  font-family: "cabinregular";
 }
 
 @font-face {

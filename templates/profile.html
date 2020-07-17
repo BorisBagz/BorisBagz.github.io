@@ -3,6 +3,7 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../styles/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
@@ -14,11 +15,14 @@
     <li><a href="../templates/skills.html" class="ubuntulight">Skills</a></li>
     <li><a href="../templates/blog.html" class="ubuntulight">Blog</a></li>
     <li><a href="../templates/contact.html" class="ubuntulight">Contact</a></li>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
   </ul>
 
-<h1 style="text-align:center;" class="cabinmedium"> Profile </h1>
+<h1 style="text-align:center;" class="ubunturegular"> Profile </h1>
 
-<p class="">
+<p class="cabinregular">
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus, dui eu dictum luctus, ligula quam tristique nisi, a sodales orci libero at lorem. Duis ac dui ipsum. Sed neque orci, condimentum eget dignissim nec, fringilla eget quam. Vestibulum interdum non ante nec aliquet. Cras at nisl non metus interdum auctor eu sit amet elit. Curabitur elementum viverra tortor. Phasellus eu fermentum libero. Pellentesque et mauris laoreet, dictum diam nec, hendrerit nulla. In ultricies fringilla ipsum, a aliquam nisi tincidunt non.
 
   Mauris ultricies, mi eu posuere varius, eros nunc pulvinar libero, eu mattis ipsum lacus in augue. Cras eget turpis non ligula elementum iaculis. Etiam sem lorem, auctor sit amet odio ac, maximus consequat est. Mauris feugiat erat nunc, eget venenatis arcu fringilla sed. Phasellus at sapien eu massa fermentum malesuada fringilla pellentesque augue. Nam ac posuere lacus. Sed felis risus, consectetur in maximus et, commodo nec erat. Nulla in lectus non sem interdum ultricies. Vestibulum vel lectus tincidunt, finibus orci non, dignissim tellus. Etiam accumsan, elit nec pharetra ultrices, dolor dui rutrum eros, vel euismod libero leo sed nibh.
@@ -35,6 +39,17 @@
 
   Quisque tincidunt purus nec tincidunt pharetra. Integer volutpat, justo quis vulputate fermentum, massa ipsum porta risus, id tincidunt neque lacus ac augue. Morbi arcu purus, molestie sed lobortis non, gravida nec arcu. Fusce quis imperdiet enim. Nunc semper posuere lacus sollicitudin scelerisque. Nulla non vulputate sapien. Proin nec justo dolor. Mauris volutpat nisl ut erat varius tincidunt. Suspendisse arcu risus, pellentesque quis eleifend in, tempor ac lectus. Nullam vel erat vehicula, dignissim massa eu, porta leo. Nulla a diam felis. Duis quis molestie justo.
  </p>
+
+ <script>
+ function myFunction() {
+   var x = document.getElementById("myLinks");
+   if (x.style.display === "block") {
+     x.style.display = "none";
+   } else {
+     x.style.display = "block";
+   }
+ }
+ </script>
 
 </body>
 </html>
