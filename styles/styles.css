@@ -14,6 +14,8 @@ p {
   color: #fdfdfd;
 }
 
+
+
 .topnav #myLinks {
   display: none;
 }
@@ -26,10 +28,16 @@ p {
   top: 0;
 }
 
-.active {
-  background-color: #4CAF50;
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
   color: white;
+  border-radius: 10px;
 }
+
+
 
 .center {
   display: block;
