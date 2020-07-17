@@ -1,5 +1,5 @@
 body {
-  background-color: #03758D;
+  background-color: #3677A2;
 }
 
 h1 {
@@ -33,13 +33,17 @@ ul.topnav {
 ul.topnav li {
   float: left;
   border-right: 1px solid #bbb;
+  width: 14.1%;
+  text-align: center;
 }
 
 ul.topnav li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  /*padding: 15px 70px;*/
+  font-size: 120%;
+  padding: 18px;
   text-decoration: none;
 }
 
@@ -52,7 +56,7 @@ ul.topnav li a:hover:not(.active) {
 }
 
 ul.topnav li a.active {
-  background-color: #01B0C9;
+  background-color: #62B4CC;
 }
 
 ul.topnav li.right {
