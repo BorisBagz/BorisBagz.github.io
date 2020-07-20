@@ -6,6 +6,10 @@ h1 {
   color: #fdfdfd;
 }
 
+h2 {
+  color: #fdfdfd;
+}
+
 h3 {
   color: #fdfdfd;
 }
@@ -159,6 +163,26 @@ p {
   font-family: "righteousregular";
 }
 
+.catamaranbold {
+  font-family: "catamaranbold";
+}
+
+.catamaranlight {
+  font-family: "catamaranlight";
+}
+
+.catamaranmedium {
+  font-family: "catamaranmedium";
+}
+
+.catamaranregular {
+  font-family: "catamaranregular";
+}
+
+.catamaransemibold {
+  font-family: "catamaransemibold";
+}
+
 @font-face {
     font-family: 'ubunturegular';
     src: url('fonts/ubuntu/ubuntu-regular-webfont.woff2') format('woff2'),
@@ -292,6 +316,47 @@ p {
     font-family: 'righteousregular';
     src: url('fonts/righteous/righteous-regular-webfont.woff2') format('woff2'),
          url('fonts/righteous/righteous-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'catamaranbold';
+    src: url('fonts/catamaran/catamaran-bold-webfont.woff2') format('woff2'),
+         url('fonts/catamaran/catamaran-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'catamaranlight';
+    src: url('fonts/catamaran/catamaran-light-webfont.woff2') format('woff2'),
+         url('fonts/catamaran/catamaran-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'catamaranmedium';
+    src: url('fonts/catamaran/catamaran-medium-webfont.woff2') format('woff2'),
+         url('fonts/catamaran/catamaran-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'catamaranregular';
+    src: url('fonts/catamaran/catamaran-regular-webfont.woff2') format('woff2'),
+         url('fonts/catamaran/catamaran-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'catamaransemibold';
+    src: url('fonts/catamaran/catamaran-semibold-webfont.woff2') format('woff2'),
+         url('fonts/catamaran/catamaran-semibold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
