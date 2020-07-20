@@ -155,6 +155,10 @@ p {
   font-family: "cabinregular";
 }
 
+.righteousregular {
+  font-family: "righteousregular";
+}
+
 @font-face {
     font-family: 'ubunturegular';
     src: url('fonts/ubuntu/ubuntu-regular-webfont.woff2') format('woff2'),
@@ -280,6 +284,14 @@ p {
     font-family: 'cabinregular';
     src: url('fonts/cabin/cabin-regular-webfont.woff2') format('woff2'),
          url('fonts/cabin/cabin-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'righteousregular';
+    src: url('fonts/righteous/righteous-regular-webfont.woff2') format('woff2'),
+         url('fonts/righteous/righteous-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
