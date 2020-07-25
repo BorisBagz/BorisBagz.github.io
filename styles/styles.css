@@ -158,7 +158,30 @@ p {
   margin-bottom:0%;
 }
 
+@media screen and (max-width: 600px) {
+  .company .nameblock{
+    background-color: black;
+    width: 96%;
+    margin-left: 2%;
+  }
 
+  .company .nameblock .name{
+    font-size: 200%;
+    text-align: center;
+  }
+
+  .company .logoblock{
+    width: 60%;
+    margin-left: 18%;
+  }
+
+  .company .logoblock .logo{
+    width:100%;
+    margin-top:2%;
+    margin-bottom:2%;
+  }
+
+}
 /*END PROFESSIONAL*/
 
 /*BEGINNING FONTS*/
