@@ -159,8 +159,18 @@ p {
 }
 
 @media screen and (max-width: 600px) {
+  .company .logoblock{
+    width: 60%;
+    margin-left: 18%;
+    margin-bottom: 2%;
+  }
+
+  .company .logoblock .logo{
+    width:100%;
+    margin-top:2%;
+  }
+
   .company .nameblock{
-    background-color: black;
     width: 96%;
     margin-left: 2%;
   }
@@ -170,17 +180,34 @@ p {
     text-align: center;
   }
 
-  .company .logoblock{
-    width: 60%;
-    margin-left: 18%;
+  .company .dateblock{
+    float: none;
+    margin-top: 40%;
+    width: 100%;
   }
 
-  .company .logoblock .logo{
-    width:100%;
-    margin-top:2%;
-    margin-bottom:2%;
+  .company .dateblock .date{
+    font-size: 150%;
+    text-align: center;
   }
 
+  .company .descriptionblock{
+    float: none;
+  }
+
+  .company .descriptionblock .description{
+    font-size: 150%;
+    text-align: center;
+  }
+
+  .company .locationblock{
+    float: none;
+  }
+
+  .company .locationblock .location{
+    font-size: 100%;
+    text-align: center;
+  }
 }
 /*END PROFESSIONAL*/
 
