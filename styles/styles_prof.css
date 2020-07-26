@@ -1,0 +1,116 @@
+/*BEGINNING PROFESSIONAL*/
+.company .nameblock{
+  float:left;
+  margin-left:2%;
+  margin-top:0%;
+}
+
+.company .nameblock .name{
+  font-size: 200%;
+  margin-top:2%;
+  margin-bottom:0%;
+  margin-left:0%;
+}
+
+.company .logoblock{
+  float:left;
+  width:30%;
+  padding:0% 2%;
+  margin-left:3%;
+  background-color:white;
+}
+
+.company .logoblock .logo{
+  width:100%;
+  margin-top:2%;
+  margin-bottom:2%;
+}
+
+.company .dateblock{
+  float:right;
+  margin-right:15%;
+  margin-top:2.5%
+}
+
+.company .dateblock .date{
+  font-size:220%;
+  margin-top:0%;
+  margin-bottom:0%;
+}
+
+.company .descriptionblock{
+  float:left;
+  margin-left:2%;
+  margin-top:1%;
+}
+
+.company .descriptionblock .description{
+  font-size:150%;
+  margin-top:0%;
+  margin-bottom:0%;
+}
+
+.company .locationblock{
+  float:left;
+  margin-left:2%;
+  margin-top:1%;
+}
+
+.company .locationblock .location{
+  font-size:120%;
+  margin-top:0%;
+  margin-bottom:0%;
+}
+
+@media screen and (max-width: 600px) {
+  .company .logoblock{
+    width: 60%;
+    margin-left: 18%;
+    margin-bottom: 2%;
+  }
+
+  .company .logoblock .logo{
+    width:100%;
+    margin-top:2%;
+  }
+
+  .company .nameblock{
+    width: 96%;
+    margin-left: 2%;
+  }
+
+  .company .nameblock .name{
+    font-size: 200%;
+    text-align: center;
+  }
+
+  .company .dateblock{
+    float: none;
+    margin-top: 40%;
+    width: 100%;
+  }
+
+  .company .dateblock .date{
+    font-size: 150%;
+    text-align: center;
+  }
+
+  .company .descriptionblock{
+    float: none;
+  }
+
+  .company .descriptionblock .description{
+    font-size: 150%;
+    text-align: center;
+  }
+
+  .company .locationblock{
+    float: none;
+  }
+
+  .company .locationblock .location{
+    font-size: 100%;
+    text-align: center;
+  }
+}
+/*END PROFESSIONAL*/

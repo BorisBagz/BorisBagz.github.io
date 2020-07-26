@@ -1,0 +1,95 @@
+body {
+  background-color: #3677A2;
+}
+
+h1 {
+  color: #fdfdfd;
+}
+
+h2 {
+  color: #fdfdfd;
+}
+
+h3 {
+  color: #fdfdfd;
+}
+
+p {
+  color: #fdfdfd;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/*BEGINNING FLOATING MENU*/
+.topnav {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1.5% 1%;
+  width: 10.5%;
+  text-decoration: none;
+  font-size: 120%;
+}
+
+.topnav a:hover {
+  background-color: #0A273F;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #62B4CC;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a:first-child {
+    padding: 3% 6%;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+    padding: 3%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    float: right;
+    padding: 20px;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    text-align: center;
+    display: block;
+    padding: 3% 25%;
+    width: 15%;
+    font-size: 120%;
+    text-decoration: none;
+  }
+}
+/*END FLOATING MENU*/

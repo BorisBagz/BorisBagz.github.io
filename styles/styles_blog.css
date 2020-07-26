@@ -1,0 +1,40 @@
+/*BEGINNING BLOG*/
+
+.posts .logoblock{
+  float:left;
+  margin-left:3.5%;
+  width: 20%;
+}
+
+.posts .logoblock .logo{
+  width: 90%;
+}
+
+.posts .nameblock{
+  float:right;
+  margin-right:70%;
+  margin-top: 5%;
+}
+
+.posts .nameblock .name{
+  font-size: 220%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.posts .nameblock .name:link{
+  color:white;
+  text-decoration: none;
+}
+
+.posts .nameblock .name:visited{
+  color:white;
+  text-decoration: none;
+}
+
+.posts .nameblock .name:hover{
+  color: #453054;
+  text-decoration: none;
+}
+
+/*END BLOG*/

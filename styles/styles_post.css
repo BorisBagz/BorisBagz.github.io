@@ -1,0 +1,52 @@
+
+.back {
+  float:right;
+  margin-right: 2%;
+  font-size: 120%;
+}
+
+.back:link{
+  color:white;
+  text-decoration: none;
+}
+
+.back:visited{
+  color:white;
+  text-decoration: none;
+}
+
+.back:hover{
+  color: #453054;
+  text-decoration: none;
+}
+
+.post .logoblock{
+  margin-left:40%;
+  width: 20%;
+}
+
+.post .logoblock .logo{
+  width: 100%;
+}
+
+.post .titleblock{
+  margin-left:40%;
+  width: 20%;
+  margin-top: 2%;
+}
+
+.post .titleblock .title{
+  font-size: 220%;
+  margin-left: 35%;
+}
+
+.post .postblock{
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.post .postblock .posttext{
+  font-size: 120%;
+  text-align: justify;
+  text-justify:inter-word;
+}
