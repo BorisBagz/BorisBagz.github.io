@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/styles_base.css">
     <link rel="stylesheet" href="../styles/styles_fonts.css">
+    <link rel="stylesheet" href="../styles/styles_profile.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script type="text/javascript" src="../js/scripts.js"></script>
   </head>
@@ -23,25 +24,29 @@
         </a>
     </div>
 
-    <div style="text-align:left;margin:2%;padding:0% 1.3%;font-size:180%">
+    <div style="text-align:left;margin-left:2%;margin-top:2%;padding:0% 1.3%;font-size:180%">
       <h1 class="righteousregular"> Profile </h1>
     </div>
 
-    <div style="float:right;width:30%;padding:1% 0%">
-      <img src="../images/cv_picture.png" style="width:70%;">
-    </div>
+    <div class="block">
+      <div class="profile">
+        <div class="photoblock">
+          <img class="photo" src="../images/cv_picture.png">
+        </div>
 
-    <div class="cabinregular" style="width:65%;padding:0% 0%">
-      <p style="text-align:justify;margin:5%;text-justify:inter-word;font-size:140%;">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac sem nulla. Mauris bibendum nulla id ex elementum feugiat. Nam ultricies mi sed imperdiet placerat. Quisque semper justo at massa sodales porttitor. Cras condimentum sodales porttitor. Sed eu ex augue. Vestibulum ut ullamcorper lacus. Integer consectetur tortor purus, id malesuada felis interdum ut.
-      </p>
-      <p style="text-align:justify;margin:5%;text-justify:inter-word;font-size:140%;">
-        Pellentesque vulputate pulvinar sem a tempus. Integer fermentum feugiat diam in gravida. Nam ut malesuada metus, ut dictum sapien. Proin ac dictum quam. Pellentesque urna elit, sagittis tempus dui vitae, accumsan eleifend urna. Donec egestas euismod lectus a dapibus. Proin vestibulum ipsum neque, id placerat nibh hendrerit mattis. Sed mattis sem vel venenatis euismod. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam at velit ut odio tincidunt porta.
-      </p>
-    </div>
+        <div class="textblock cabinregular" >
+          <p class="text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac sem nulla. Mauris bibendum nulla id ex elementum feugiat. Nam ultricies mi sed imperdiet placerat. Quisque semper justo at massa sodales porttitor. Cras condimentum sodales porttitor. Sed eu ex augue. Vestibulum ut ullamcorper lacus. Integer consectetur tortor purus, id malesuada felis interdum ut.
+          </p>
+          <p class="text">
+            Pellentesque vulputate pulvinar sem a tempus. Integer fermentum feugiat diam in gravida. Nam ut malesuada metus, ut dictum sapien. Proin ac dictum quam. Pellentesque urna elit, sagittis tempus dui vitae, accumsan eleifend urna. Donec egestas euismod lectus a dapibus. Proin vestibulum ipsum neque, id placerat nibh hendrerit mattis. Sed mattis sem vel venenatis euismod. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam at velit ut odio tincidunt porta.
+          </p>
+        </div>
 
-    <div style="padding:0% 45%">
-      <button type="submit" onclick="window.open('../files/cv_eng_2020.pdf')">Download my CV!</button>
+        <div class="button_download">
+          <button type="submit" onclick="window.open('../files/cv_eng_2020.pdf')">Download my CV!</button>
+        </div>
+      </div>
     </div>
 
   </body>

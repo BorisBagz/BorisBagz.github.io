@@ -1,0 +1,65 @@
+.block{
+  background-color: #AEC8D9;
+  margin-left: 3.5%;
+  margin-right: 3.5%;
+}
+
+.profile .photoblock{
+  float:right;
+  width:30%;
+  margin-top: 3%;
+}
+
+.profile .photoblock .photo{
+   width:70%;
+}
+
+.profile .textblock{
+  width:65%;
+  padding-top: 1%;
+  margin-left: 1.5%;
+}
+
+.profile .textblock .text{
+  text-align:justify;
+  margin-left:2%;
+  text-justify:inter-word;
+  font-size:140%;
+  color: #1B3B51;
+}
+
+.profile .button_download{
+   width: 12%;
+   margin-left: 45%;
+   padding-bottom: 2%;
+}
+
+@media screen and (max-width: 600px) {
+  .profile .photoblock{
+    float: none;
+    width: 60%;
+    margin-left: 20%;
+  }
+
+  .profile .photoblock .photo{
+     width:70%;
+     margin-left: 20%;
+  }
+
+  .profile .textblock{
+    width:95%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .profile .textblock .text{
+    text-align:justify;
+    text-justify:inter-word;
+    font-size:140%;
+  }
+
+  .profile .button_download{
+     margin-left: 35%;
+     width: 40%;
+  }
+}

@@ -37,4 +37,28 @@
   text-decoration: none;
 }
 
+@media screen and (max-width: 600px) {
+  .posts .logoblock{
+    float:none;
+    margin-left:20%;
+    width: 60%;
+  }
+
+  .posts .logoblock .logo{
+    width: 90%;
+  }
+
+  .posts .nameblock{
+    float:none;
+    margin-left:38%;
+    margin-top: 5%;
+  }
+
+  .posts .nameblock .name{
+    font-size: 220%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+}
+
 /*END BLOG*/

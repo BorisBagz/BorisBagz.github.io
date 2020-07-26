@@ -3,6 +3,8 @@
   float:right;
   margin-right: 2%;
   font-size: 120%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .back:link{
@@ -23,6 +25,7 @@
 .post .logoblock{
   margin-left:40%;
   width: 20%;
+  margin-top: 5%;
 }
 
 .post .logoblock .logo{
@@ -49,4 +52,26 @@
   font-size: 120%;
   text-align: justify;
   text-justify:inter-word;
+}
+
+@media screen and (max-width: 600px) {
+  .back {
+    float:right;
+    margin-right: 2%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    font-size: 120%;
+  }
+
+  .post .logoblock{
+    margin-left:25%;
+    width: 50%;
+    margin-top: 15%;
+  }
+
+  .post .titleblock{
+    margin-left:32%;
+    width: 20%;
+    margin-top: 1%;
+  }
 }
