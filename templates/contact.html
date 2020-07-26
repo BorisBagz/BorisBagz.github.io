@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/styles_base.css">
     <link rel="stylesheet" href="../styles/styles_fonts.css">
+    <link rel="stylesheet" href="../styles/styles_contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script type="text/javascript" src="../js/scripts.js"></script>
   </head>
@@ -25,6 +26,26 @@
 
     <div style="text-align:left;margin:2%;padding:0% 1.3%;font-size:180%">
       <h1 class="righteousregular"> Contact </h1>
+    </div>
+
+    <div class="formblock">
+      <form class="formulario" action="mailto:borisbagz@gmail.com" method="post" enctype="text/plain">
+        <a class="name ubunturegular">
+          <br>Name:<br>
+        </a>
+        <input class="name_input" type="text" name="name"><br><br>
+        <a class="email ubunturegular">
+          E-mail:<br>
+        </a>
+        <input class="mail_input" type="text" name="mail"><br><br>
+        <a class="comment ubunturegular">
+          Comentario:<br>
+        </a>
+        <textarea class="comment_input" name="comment" rows="10" column="60">
+        </textarea><br><br>
+        <input class="submit_btn" type="submit" value="Send">
+        <input class="reset_btn" type="reset" value="Reset">
+      </form>
     </div>
 
   </body>

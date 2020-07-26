@@ -1,9 +1,18 @@
 /*BEGINNING BLOG*/
 
+.posts{
+  background-color: #AEC8D9;
+  margin-left: 3.5%;
+  margin-right: 3.5%;
+  overflow: auto;
+}
+
 .posts .logoblock{
+  margin-top: 1%;
   float:left;
-  margin-left:3.5%;
+  margin-left:4%;
   width: 20%;
+  margin-bottom: 1%;
 }
 
 .posts .logoblock .logo{
@@ -13,22 +22,21 @@
 .posts .nameblock{
   float:right;
   margin-right:70%;
-  margin-top: 5%;
+  margin-top: 7%;
 }
 
 .posts .nameblock .name{
   font-size: 220%;
-  margin-top: 0%;
   margin-bottom: 0%;
 }
 
 .posts .nameblock .name:link{
-  color:white;
   text-decoration: none;
+  color: #1B3B51;
 }
 
 .posts .nameblock .name:visited{
-  color:white;
+  color: #1B3B51;
   text-decoration: none;
 }
 
@@ -40,7 +48,7 @@
 @media screen and (max-width: 600px) {
   .posts .logoblock{
     float:none;
-    margin-left:20%;
+    margin-left:21%;
     width: 60%;
   }
 
@@ -51,7 +59,8 @@
   .posts .nameblock{
     float:none;
     margin-left:38%;
-    margin-top: 5%;
+    margin-top: 3%;
+    margin-bottom: 2%;
   }
 
   .posts .nameblock .name{

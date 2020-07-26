@@ -1,0 +1,64 @@
+.formblock{
+  background-color: #AEC8D9;
+  margin-left: 3.2%;
+  width: 70%;
+  margin-bottom: 3%;
+}
+
+.formblock .formulario{
+  margin-left: 2%;
+}
+
+.formblock .formulario .name{
+  font-size: 120%;
+  color: #1B3B51;
+}
+
+.formblock .formulario .name_input{
+  margin-top: 0.5%;
+  width: 40%;
+}
+
+.formblock .formulario .email{
+  font-size: 120%;
+  color: #1B3B51;
+}
+
+.formblock .formulario .mail_input{
+  margin-top: 0.5%;
+  width: 40%;
+}
+
+.formblock .formulario .comment{
+  font-size: 120%;
+  color: #1B3B51;
+}
+
+.formblock .formulario .comment_input{
+  margin-top: 0.5%;
+  width: 97%;
+  font-size: 150%;
+}
+
+.formblock .formulario .submit_btn{
+  margin-bottom: 2%;
+}
+
+.formblock .formulario .reset_btn{
+  margin-bottom: 2%;
+}
+
+@media screen and (max-width: 600px) {
+  .formblock{
+    width: 95%;
+  }
+
+  .formblock .formulario .name_input{
+    width: 60%;
+  }
+
+  .formblock .formulario .mail_input{
+    width: 60%;
+  }
+
+}
