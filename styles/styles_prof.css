@@ -23,7 +23,7 @@
 .company .logoblock{
   float:left;
   width:30%;
-  margin-left:10%;
+  margin-left:9%;
   margin-top: 1%;
   margin-bottom: 1%;
 }
@@ -36,7 +36,7 @@
 
 .company .dateblock{
   float:right;
-  margin-right:15%;
+  margin-right:12%;
   margin-top:3.7%;
 }
 
@@ -62,10 +62,10 @@
 
 .company .locationblock{
   float:none;
-  margin-left:42.9%;
+  margin-left:42%;
   margin-right: 0%;
   margin-top:8.5%;
-  width: 18%;
+  width: 20%;
 }
 
 .company .locationblock .location{

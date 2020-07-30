@@ -1,10 +1,15 @@
+.block{
+  background-color: #AEC8D9;
+  margin-left: 3.5%;
+  margin-right: 3.5%;
+}
 
 .back {
   float:right;
   margin-right: 2%;
   font-size: 120%;
   margin-top: 2%;
-  margin-bottom: 2%;
+  margin-bottom: 3%;
 }
 
 .back:link{
@@ -23,9 +28,10 @@
 }
 
 .post .logoblock{
-  margin-left:40%;
-  width: 20%;
-  margin-top: 5%;
+  margin-left:38%;
+  width: 25%;
+  margin-top: 6%;
+  padding-top: 2%;
 }
 
 .post .logoblock .logo{
@@ -41,17 +47,20 @@
 .post .titleblock .title{
   font-size: 220%;
   margin-left: 35%;
+  color: #1B3B51;
 }
 
 .post .postblock{
-  margin-left: 8%;
-  margin-right: 8%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-bottom: 2%;
 }
 
 .post .postblock .posttext{
-  font-size: 120%;
+  font-size: 150%;
   text-align: justify;
   text-justify:inter-word;
+  color: #1B3B51;
 }
 
 @media screen and (max-width: 600px) {
