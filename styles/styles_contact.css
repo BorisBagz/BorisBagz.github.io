@@ -65,6 +65,7 @@
 .formblock .formulario .name_input{
   margin-top: 0.5%;
   width: 40%;
+  font-size: 120%;
 }
 
 .formblock .formulario .email{
@@ -75,6 +76,7 @@
 .formblock .formulario .mail_input{
   margin-top: 0.5%;
   width: 40%;
+  font-size: 120%;
 }
 
 .formblock .formulario .comment{
@@ -90,6 +92,7 @@
 
 .formblock .formulario .submit_btn{
   margin-bottom: 2%;
+  font-size: 120%;
 }
 
 .formblock .formulario .reset_btn{
@@ -126,5 +129,4 @@
     margin-top: 4.2%;
     font-size: 150%;
   }
-
 }

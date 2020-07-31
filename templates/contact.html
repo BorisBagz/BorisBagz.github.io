@@ -44,26 +44,30 @@
     </div>
 
     <div class="sendemail">
-      <h1 class="righteousregular"> Or send me an email! </h1>
+      <h1 class="righteousregular "> Or send me an email! </h1>
     </div>
 
     <div class="formblock">
-      <form class="formulario" action="mailto:borisbagz@gmail.com" method="post" enctype="text/plain">
+      <form action="https://formspree.io/mjvalyvq" method="POST" class="formulario">
         <a class="name ubunturegular">
-          <br>Name:<br>
+          <label>
+            <br>Name:<br>
+            <input class="name_input" type="text" name="name"><br><br>
+          </label>
         </a>
-        <input class="name_input" type="text" name="name"><br><br>
         <a class="email ubunturegular">
-          E-mail:<br>
+          <label>
+            E-mail:<br>
+            <input class="mail_input" type="text" name="_replyto"><br><br>
+          </label>
         </a>
-        <input class="mail_input" type="text" name="mail"><br><br>
         <a class="comment ubunturegular">
-          Comentario:<br>
+          <label>
+            Comentario:<br>
+            <textarea class="comment_input" name="message" rows="10" column="60"></textarea><br><br>
+          </label>
         </a>
-        <textarea class="comment_input" name="comment" rows="10" column="60">
-        </textarea><br><br>
-        <input class="submit_btn" type="submit" value="Send">
-        <input class="reset_btn" type="reset" value="Reset">
+        <button type="submit" class="submit_btn">Enviar</button>
       </form>
     </div>
 
