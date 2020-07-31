@@ -1,6 +1,54 @@
+.social_entry{
+  margin-left: 3.5%;
+}
+
+.social_entry .logo_block{
+  float: left;
+  width: 10%;
+  margin-left: 5%;
+}
+
+.social_entry .logo_block .logo{
+  padding-right: 0%;
+  width: 100%;
+}
+
+.social_entry .linkblock{
+  float:left;
+  margin-left: 3%;
+  margin-top: 4.2%;
+  font-size: 180%;
+  color: white;
+}
+
+.social_entry .linkblock .linksocial:link{
+  text-decoration: none;
+  color: white;
+}
+
+.social_entry .linkblock .linksocial:visited{
+  color: white;
+  text-decoration: none;
+}
+
+.social_entry .linkblock .linksocial:hover{
+  color: #453054;
+  text-decoration: none;
+}
+
+.sendemail{
+  text-align:left;
+  font-size:160%;
+  margin-top:18%;
+  margin-left:3.5%;
+}
+
+/*BEGINNING FORM*/
 .formblock{
+  float: none;
   background-color: #AEC8D9;
-  margin-left: 3.2%;
+  margin-top: 1%;
+  margin-left: 3.5%;
   width: 70%;
   margin-bottom: 3%;
 }
@@ -47,6 +95,7 @@
 .formblock .formulario .reset_btn{
   margin-bottom: 2%;
 }
+/*END FORM*/
 
 @media screen and (max-width: 600px) {
   .formblock{
@@ -59,6 +108,23 @@
 
   .formblock .formulario .mail_input{
     width: 60%;
+  }
+
+  .sendemail{
+    padding-top: 5%;
+    font-size: 100%;
+  }
+
+  .social_entry .logo_block{
+    float: none;
+    width: 25%;
+    margin-left: 35%;
+  }
+
+  .social_entry .linkblock{
+    margin-left: 13%;
+    margin-top: 4.2%;
+    font-size: 150%;
   }
 
 }
