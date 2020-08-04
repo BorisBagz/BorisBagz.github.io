@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/borisbagz
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://borisbagz.com
+  * I am borisbagz (https://keybase.io/borisbagz) on keybase.
+  * I have a public key with fingerprint 4CFA 22E2 C439 96DD 1E75  1B1B 3B87 E9D3 E962 3D82
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101304b0916beb1af0ea010e154b57d2dcddaf167b5396c3a991fc996c53cb2569d0a",
+      "fingerprint": "4cfa22e2c43996dd1e751b1b3b87e9d3e9623d82",
+      "host": "keybase.io",
+      "key_id": "3b87e9d3e9623d82",
+      "kid": "0101304b0916beb1af0ea010e154b57d2dcddaf167b5396c3a991fc996c53cb2569d0a",
+      "uid": "75bf26d6cbb0e7513b4f2d6c372daa19",
+      "username": "borisbagz"
+    },
+    "service": {
+      "hostname": "borisbagz.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1596568605,
+  "expire_in": 157680000,
+  "prev": "75131472488d60efeb8b65871ee0fae16cddfa159b0451b973365c61727cb949",
+  "seqno": 15,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMIgAnicrVJdSBVBFL5mhoqXpEQiFXIppZTbzv7M3r2lkRkGPkSkCBFeZ3ZnddO7
+e7273vLnUokRqXl7iMDwJQlCk3pIjULMP5SoDI0yJQgkDKuXIhKlqFmpl+ixeZk5
+Z77vm++cORPuWFdizL6Lyy+WcV5zzJPR63Uu/+7+jEYGm2o942tkqsn6RmpUYtn+
+al1lfAwLWMCzAmZlADHBAGksQTRJgChgUVI5VVFVpAEoYZGXocIjWQaaItOjyCuY
+E6GssojJZTTdqCShYEg3bCorKBriOMIpAk+hqgqIJAIMMI+9EpFVnsiQ41UvR4lV
+puUwqDmMLOLRTZqjgX/d3j/w/9l33bqcJGKNgypUMGYdqzwWNI6GvMSpCAHZAVok
+ZKAAoWhshnQLo8oGJpLL0HRYV4jTWaeUvyEexQxQdjBk2qZi1tCrKtsOWj6HatcH
+Hexpgv2/VfxYN1TaScoIk5ClmwbjAxSp2LojC0QZitALWTGXIWeCeoj4dQchStDL
+0uW8Q8Lr9QAeCBIneL0qZIlGsBdD0SsBQlgNEQBpdzRE5TAr0I+RJZ6HogKBxEkK
+lgWnXovUGqajTX2iSqpp6ZUGsutChImMjZzc6IpJdG2K2+CMmCsxIfnP4GWWx7s6
+f7wJJ3+6O5N4Xu8aGW47kSDWb5+dL+0uV4o9tdNN2Vnu8Rtdt5J3fGZTex6dNUpe
+ar6CwNusgnuu4ZaylZLmyKmPzLvI7OOl+OP9KXcODHcfrnA/iC6H1450pafClNVn
+FZ4tHTeN+zmzizYqYy80vpebCtPisjpGoz1ra1PPS7+5H2Y0zLi/pH9oWVh6fXm1
+JBrtX0yabZ0nA5N9Q9VT+UXbdnHM1njXxG536vLeuQG9c6i0b/LcZFpmb87+lEhv
+6dXx23PZKBqeWIsdSFnpLj6Wkb+6hA7aOZuzrg23jT1Nmtn59cqhheJw3s9X3KA+
+3Xq0cHxwT+B7e3uRdukXBAhBbw==
+=ahq9
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/borisbagz
+
+==================================================================
