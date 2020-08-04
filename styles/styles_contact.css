@@ -13,29 +13,6 @@
   width: 100%;
 }
 
-.social_entry .linkblock{
-  float:left;
-  margin-left: 3%;
-  margin-top: 4.2%;
-  font-size: 180%;
-  color: white;
-}
-
-.social_entry .linkblock .linksocial:link{
-  text-decoration: none;
-  color: white;
-}
-
-.social_entry .linkblock .linksocial:visited{
-  color: white;
-  text-decoration: none;
-}
-
-.social_entry .linkblock .linksocial:hover{
-  color: #453054;
-  text-decoration: none;
-}
-
 .sendemail{
   text-align:left;
   font-size:160%;
@@ -114,7 +91,8 @@
   }
 
   .sendemail{
-    padding-top: 5%;
+    padding-top: 2%;
+    margin-top: 0%;
     font-size: 100%;
   }
 
@@ -122,11 +100,6 @@
     float: none;
     width: 25%;
     margin-left: 35%;
-  }
-
-  .social_entry .linkblock{
-    margin-left: 13%;
-    margin-top: 4.2%;
-    font-size: 150%;
+    margin-top: 4%;
   }
 }
