@@ -1,0 +1,170 @@
+/*BEGINNING ACADEMIC*/
+#bdx{
+    margin-top: 15%;
+    padding-bottom: 5%;
+}
+
+#utp{
+    width: 65%;
+    margin-left: 10%;
+}
+
+.university {
+  background-color: #AEC8D9;
+  overflow: auto;
+  margin-left: 3.5%;
+  margin-right: 3.5%;
+}
+
+.university .logoblock{
+  float:left;
+  width:20%;
+  margin-left:7%;
+  margin-top: 1.5%;
+  margin-bottom: 1%;
+}
+
+.university .logoblock .logo{
+  width:100%;
+  margin-top:2%;
+  margin-bottom:2%;
+}
+
+.university .text{
+  float:right;
+  width: 70%;
+  margin-top: 3.5%;
+  margin-bottom: 1%;
+}
+
+.university .careerblock{
+  float: left;
+  margin-left:0%;
+  width: 70%;
+}
+
+.university .careerblock .career{
+  font-size: 180%;
+  margin-top:0%;
+  margin-bottom:0%;
+  margin-left:0%;
+  color: #1B3B51;
+}
+
+.university .uniblock{
+  float: left;
+  margin-left:0%;
+  margin-top:1%;
+  width: 60%;
+}
+
+.university .uniblock .uni{
+  font-size:150%;
+  margin-top:0%;
+  margin-bottom:0%;
+  color: #1B3B51;
+}
+
+.university .locationblock{
+  float: left;
+  margin-left:0%;
+  margin-right: 0%;
+  margin-top:1%;
+  width: 46%;
+}
+
+.university .locationblock .location{
+  font-size:120%;
+  margin-top:0%;
+  margin-bottom:0%;
+  color: #1B3B51;
+}
+
+.university .dateblock{
+  float:right;
+  margin-top: 2.3%;
+  margin-right: 15%;
+}
+
+.university .dateblock .date{
+  font-size:220%;
+  margin-top:0%;
+  margin-bottom:0%;
+  color: #1B3B51;
+}
+
+@media screen and (max-width: 600px) {
+
+  #carreerutp{
+    font-size: 120%;
+  }
+
+  #utp{
+    width: 80%;
+    margin-left: 15%;
+  }
+
+  .university .logoblock{
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 2%;
+    float: none;
+  }
+
+  .university .logoblock .logo{
+    width:100%;
+    margin-top:2%;
+  }
+
+  .university .text{
+    float:none;
+    width: 100%;
+    padding-top: 0%;
+  }
+
+  .university .careerblock{
+    width: 100%;
+    margin-left: 0%;
+    float: none;
+  }
+
+  .university .careerblock .career{
+    font-size: 130%;
+    text-align: center;
+  }
+
+  .university .dateblock{
+    float: none;
+    width: 100%;
+    margin-top: 0%;
+  }
+
+  .university .dateblock .date{
+    font-size: 150%;
+    text-align: center;
+  }
+
+  .university .uniblock{
+    float: none;
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .university .uniblock .uni{
+    font-size: 100%;
+    text-align: center;
+  }
+
+  .university .locationblock{
+    width: 100%;
+    float: none;
+    margin-left: 0%;
+    margin-bottom: 2%;
+  }
+
+  .university .locationblock .location{
+    font-size: 90%;
+    text-align: center;
+  }
+}
+/*END ACADEMIC*/
