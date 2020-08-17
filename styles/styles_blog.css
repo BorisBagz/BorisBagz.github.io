@@ -1,4 +1,7 @@
 /*BEGINNING BLOG*/
+#title_post2{
+  margin-right: 64%;
+}
 
 .posts{
   background-color: #AEC8D9;
@@ -21,7 +24,7 @@
 
 .posts .nameblock{
   float:right;
-  margin-right:65%;
+  margin-right:55%;
   margin-top: 6.5%;
 }
 
@@ -46,6 +49,19 @@
 }
 
 @media screen and (max-width: 600px) {
+
+  #title_post1{
+    float:none;
+    margin-left: 23%;
+    width: 60%;
+  }
+
+  #title_post2{
+    float:none;
+    margin-left: 35%;
+    width: 60%;
+  }
+
   .posts .logoblock{
     float:none;
     margin-left:21%;

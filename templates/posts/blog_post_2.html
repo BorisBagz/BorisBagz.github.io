@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boris Antonio's website.</title>
+    <link rel="icon" href="../../images/icon.png">
+    <link rel="stylesheet" href="../../styles/styles_base.css">
+    <link rel="stylesheet" href="../../styles/styles_fonts.css">
+    <link rel="stylesheet" href="../../styles/styles_post.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="../../js/scripts.js"></script>
+  </head>
+  <body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="../../index.html" class="ubuntulight">Home</a>
+        <a href="../../templates/profile.html" class="ubuntulight">Profile</a>
+        <a href="../../templates/academic.html" class="ubuntulight">Academic</a>
+        <a href="../../templates/professional.html" class="ubuntulight">Professional</a>
+        <a href="../../templates/research.html" class="ubuntulight">Research</a>
+        <a href="../../templates/skills.html" class="ubuntulight">Skills</a>
+        <a href="../../templates/blog.html" class="ubuntulight active">Blog</a>
+        <a href="../../templates/contact.html" class="ubuntulight">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="menuMobile()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <div>
+      <a class="back ubuntumedium" href="../../templates/blog.html">
+        BACK
+      </a>
+    </div>
+
+    <div class="block">
+      <div class="post">
+        <div class="logoblock">
+          <img class="logo" src="../../images/logo_trans.png">
+        </div>
+        <div class="titleblock" id="title_post2">
+          <p class="title ubuntumedium">
+            OSINT
+          </p>
+        </div>
+        <div class="postblock">
+          <p class="posttext ubunturegular">
+            Como dijimos en la introducción, esta serie de escritos estarán orientados a la seguridad de
+            los datos de nosotros los usuarios del internet. Para comenzar, empezaremos hablando un poco
+            sobre Threat Intelligence y explicando las distintas técnicas que existen, como OSINT (o Open
+            Source Intelligence), cómo funcionan, cómo utilizarlas y porqué es importante conocer el impacto
+            que podría tener la explotación de este tipo de técnicas sobre la privacidad de nuestros datos.<br><br>
+
+            Antes de continuar, quisiera que comprendiéramos un poco el contexto en el que nos vamos a manejar.
+            Según distintas fuentes (<a class="enlace" href="https://www.c-sharpcorner.com/article/how-much-data-is-on-the-internet/" target="_blank">aquí</a>
+            y <a class="enlace" href="https://www.live-counter.com/how-big-is-the-internet/" target="_blank">aquí</a>), entre ellas IBM, cada día
+            se almacenan alrededor de 2.5 quintillones de bytes al internet, y que en el 2017 la cantidad total de
+            datos almacenados y accesibles era de ~2.7 Zettabytes. Se calcula que en 2020 existirán alrededor de
+            50 ZB. Recordemos que un Zettabyte es un millón de Petabytes, y que un Petabyte es un millón de Gigabytes.
+            En conclusión, un montón.<br><br>
+
+            Ahora si, entrando al tema, la Threat Intelligence no es más que la búsqueda y recolección de datos a
+            través del internet para llevar a cabo una investigación o el análisis de un objetivo en específico.
+            Distintas organizaciones utilizan la Threat Intelligence para conocer el desarrollo técnico en el
+            cibercrimen, hacktivismo, ciberespionaje, entre otros dominios. Existen varias técnicas de Threat
+            Intelligence, pero hoy nos vamos a interesar en la más popular, Open Source Intelligence o OSINT.<br><br>
+
+            OSINT es un método que utiliza herramientas con fuentes de información abiertas y disponibles desde el internet,
+            para recolectar información que es pública y accesible por cualquier persona, para luego analizarla con el
+            objetivo de tomar una decisión o llevar a cabo una acción.<br><br>
+
+            Las técnicas OSINT pueden ser útiles en las manos adecuadas pero muy peligroso si hackers o personas con malas
+            intenciones lo utilizan para buscar información confidencial o sensitiva sobre un objetivo en específico, ya
+            sea una persona, una empresa, una organización, un país, etc. Estos últimos siendo el objetivo más común.<br><br>
+
+            Ahora se preguntarán “y cómo me afecta esto a mi?” Pues utilizando técnicas de OSINT, buscar información sobre
+            alguien se vuelve mucho más sencillo. Con las herramientas adecuadas y con sólo conocer el nombre de una persona,
+            se facilita la búsqueda de distintos tipos de información, por ejemplo:<br>
+
+            <ul class="posttext ubunturegular">
+              <li>nombre completo</li>
+              <li>correo electrónico</li>
+              <li>edad y fecha de nacimiento</li>
+              <li>dirección</li>
+              <li>lugar de trabajo o estudios</li>
+              <li>ubicación</li>
+              <li>número de teléfono</li>
+              <li>modelo de teléfono</li>
+              <li>personas con las que nos relacionamos</li>
+              <li>...</li>
+            </ul>
+
+          </p>
+          <p class="posttext ubunturegular">
+            entre muchas otras cosas más, todo depende del nivel de exposición que tengamos en internet y de la creatividad
+            del atacante.<br><br>
+
+            Por una parte, este nivel de exposición puede ser controlado por nosotros mismos, limitando la cantidad de
+            información sensitiva que es compartida en sitios web o redes sociales, desactivando la geolocalización de
+            nuestros dispositivos cuando no es necesario, restringir el uso de correo personal al momento de crearnos
+            nuevas cuentas en sitios no confiables, etc. Sin embargo, en otros casos, la responsabilidad de la protección
+            de nuestros datos es de las empresas y sitios web que los almacenan. Por ejemplo, cuando hay una fuga de datos
+            de algún sitio web o de alguna red social, el usuario que se ve afectado no puede hacer nada para evitarlo.
+            En esos casos, la información ha sido liberada y ahora está disponible para todos a través del internet.
+            Esta es una de las fuentes más importantes y llenas de contenido útil cuando un atacante busca información
+            sensitiva de su objetivo.<br><br>
+
+            En las próximas entradas de la serie explicaremos la manera en la que se puede obtener esta información,
+            las fuentes y las herramientas utilizables. Finalmente hablaremos sobre las leyes y reglamentos que tratan
+            de controlar y fiscalizar la privacidad de los datos en internet en América Latina.<br><br>
+
+            Hasta la próxima!<br><br>
+
+            ~ Boris Antonio.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <a class="back ubuntumedium" href="../../templates/blog.html">
+        BACK
+      </a>
+    </div>
+
+  </body>
+</html>

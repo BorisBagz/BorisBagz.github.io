@@ -1,3 +1,11 @@
+#title_post1{
+  margin-left: 37%;
+}
+
+#title_post2{
+  margin-left: 40%;
+}
+
 .block{
   background-color: #AEC8D9;
   margin-left: 3.5%;
@@ -63,7 +71,34 @@
   color: #1B3B51;
 }
 
+.enlace{
+  text-decoration: none;
+}
+
+.enlace.link{
+  text-decoration: none;
+  color: #0D1D28;
+}
+
+.enlace:visited{
+  color: #0D1D28;
+  text-decoration: none;
+}
+
+.enlace:hover{
+  color: #453054;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 600px) {
+  #title_post1{
+    margin-left: 18%;
+  }
+
+  #title_post2{
+    margin-left: 30%;
+  }
+
   .back {
     float:right;
     margin-right: 2%;
