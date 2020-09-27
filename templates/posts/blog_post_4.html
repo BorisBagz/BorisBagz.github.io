@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boris Antonio's website.</title>
+    <link rel="icon" href="../../images/icon.png">
+    <link rel="stylesheet" href="../../styles/styles_base.css">
+    <link rel="stylesheet" href="../../styles/styles_fonts.css">
+    <link rel="stylesheet" href="../../styles/styles_post.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="../../js/scripts.js"></script>
+  </head>
+  <body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="../../index.html" class="ubuntulight">Home</a>
+        <a href="../../templates/profile.html" class="ubuntulight">Profile</a>
+        <a href="../../templates/academic.html" class="ubuntulight">Academic</a>
+        <a href="../../templates/professional.html" class="ubuntulight">Professional</a>
+        <a href="../../templates/research.html" class="ubuntulight">Research</a>
+        <a href="../../templates/skills.html" class="ubuntulight">Skills</a>
+        <a href="../../templates/blog.html" class="ubuntulight active">Blog</a>
+        <a href="../../templates/contact.html" class="ubuntulight">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="menuMobile()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <div>
+      <a class="back ubuntumedium" href="../../templates/blog.html">
+        BACK
+      </a>
+    </div>
+
+    <div class="block">
+      <div class="post">
+        <div class="logoblock">
+          <img class="logo" src="../../images/logo_trans.png">
+        </div>
+        <div class="titleblock" id="title_post4">
+          <p class="title ubuntumedium" id="thetitle_post4">
+            Facebook y la privacidad, conceptos incompatibles
+          </p>
+        </div>
+        <div class="postblock">
+          <p class="posttext ubunturegular">
+
+            Como dice el nombre de esta entrada, hoy hablaremos sobre Facebook y sus recurrentes
+            escándalos y problemas relacionados con la privacidad y la seguridad de los datos
+            de los usuarios. Sin embargo, no daremos nuestra opinión sobre el servicio, si no
+            que haremos un recuento o una bitácora de los distintos incidentes de Facebook
+            relacionados con la privacidad desde que se creó la plataforma hasta el momento
+            de escribir estas líneas. Finalmente expondremos el tema de investigación y los
+            resultados del estudio <i>“Unveiling and Quantifying Facebook Exploitation of Sensitive
+            Personal Data for Advertising Purposes”</i> realizado por estudiantes de la Universidad
+            Carlos III de Madrid.<br><br>
+
+            Desde sus inicios Facebook ha enfrentado una gran cantidad de situaciones
+            (de alguna manera evitables) que han puesto en peligro la privacidad y la seguridad
+            de los datos personales de sus usuarios. Por ejemplo, en 2007, la actividad de
+            los usuarios en otros sitios web (fuera de Facebook) era registrada y capturada
+            para luego agregarla a los perfiles de
+            <a class="enlace" href="https://en.wikipedia.org/wiki/Facebook_Beacon" target="_blank">Beacon</a>
+            , el primer intento de Facebook para
+            monetizar los perfiles de los usuarios. Uno de estos casos era que dentro de
+            Beacon podía aparecer los títulos de las películas vistas por el usuario a través
+            de otra plataforma online totalmente distinta.
+            <a class="enlace" href="https://www.cnet.com/news/facebook-notifies-members-about-beacon-settlement/" target="_blank">Fuente</a>.
+            <br><br>
+
+            En diciembre 2009, algo parecido ocurrió, cuando la FTC (Comisión Federal de Comercio de los EEUU)
+            descubrió que había información, que se pensaba era privada, pero en realidad estaba siendo
+            compartida públicamente.
+            <a class="enlace" href="https://www.nytimes.com/2011/11/30/technology/facebook-agrees-to-ftc-settlement-on-privacy.html" target="_blank">Fuente</a>.<br><br>
+
+            En 2013, Facebook anuncia que a causa de un error en el sistema se había expuesto información
+            personal de alrededor de <b>6 millones</b> de usuarios en aproximadamente un año. Cuando un usuario
+            descargaba su historial de actividad en Facebook, dentro venía incluido la información de
+            contacto (nombre, número de teléfono, email, ubicación) de los usuarios que eran amigos del
+            usuario en cuestión.
+            <a class="enlace" href="https://www.zdnet.com/article/facebook-bug-exposed-personal-data-of-six-million-accounts/" target="_blank">Fuente</a>.
+            <br><br>
+
+            El escándalo con <b>Cambridge Analytica</b> comienza en febrero del 2014, cuando Aleksandr Kogan
+            crea una tarea dentro de
+            <a class="enlace" href="https://www.mturk.com/" target="_blank">Amazon Mechanical Turk</a>
+            (o AMT, plataforma de crowdsourcing de Amazon).
+            La tarea se trataba de una encuesta que debían completar los usuarios de AMT a cambio de dinero.
+            La encuesta requería que los usuarios descargaran la aplicación <i>thisisyourdigitallife</i> a sus
+            perfiles de Facebook, la cual requería acceso a su información de perfil, contactos, mensajes
+            privados, entre otros.<br><br>
+
+            En diciembre 2015, Facebook se entera que la data que está siendo recolectada por la aplicación
+            de Kogan estaba siendo compartida con <b>Cambridge Analytica</b>. En ese momento Facebook bloquea la
+            aplicación de su plataforma y pide a <b>Cambridge Analytica</b> que elimine toda la data recibida por la misma.<br><br>
+
+            En marzo 2018 una información anónima sale a la luz y es publicada por <b>The Guardian</b>,
+            en donde reportan que inicialmente unos <b>50 millones</b> de perfiles de usuarios de Facebook
+            habían sido recolectados por <b>Cambridge Analytica</b>, esta cantidad fue más tarde actualizada
+            a <b>87 millones</b>. Después se informa que la información anónima viene del creador de la
+            aplicación <i>thisisyourdigitallife</i>. Esta persona aclara que la información de los
+            usuarios fue capturada a través de esta aplicación para luego ser vendida a <b>Cambridge Analytica</b>,
+            y que con esta se desarrollaron perfiles “psicográficos” de los usuarios, para luego
+            enviarles propaganda <i>pro-Trump</i>.
+            <a class="enlace" href="https://www.theguardian.com/news/2018/mar/17/cambridge-analytica-facebook-influence-us-election" target="_blank">Fuente</a>.
+            <br><br>
+
+            En abril 2018, reportes indican que Facebook le otorga permisos sobre el control de la
+            información personal de los usuarios a Mark Zuckerberg y otros ejecutivos con altos
+            rangos dentro de la empresa. Este tipo de permisos no los tendría un usuario normal.
+            Los mensajes enviados por Zuckerberg a otros usuarios podían ser eliminados de sus
+            bandejas de entrada de forma remota. Esto fue casi un año antes de implementar la
+            habilidad de eliminar mensajes enviados en Facebook Messenger.
+            <a class="enlace" href="https://techcrunch.com/2018/04/05/zuckerberg-deleted-messages/" target="_blank">Fuente</a>.
+            <br><br>
+
+            En abril 2018, se reporta que Facebook anuncia que usuarios malintencionados
+            abusan de la función de búsqueda de Facebook para recopilar información de
+            los perfiles de usuario. Esta vulnerabilidad pudo haber afectado a sus casi
+            <b>2 mil millones</b> de usuarios alrededor del mundo.
+            <a class="enlace" href="https://www.washingtonpost.com/news/the-switch/wp/2018/04/04/facebook-said-the-personal-data-of-most-its-2-billion-users-has-been-collected-and-shared-with-outsiders/" target="_blank">Fuente</a>.
+            <br><br>
+
+            En Junio 2018 se reporta que Facebook mantuvo convenios en el que se compartía
+            data con distintas compañías como <b>Apple, Amazon, BlackBerry, Microsoft y Samsung</b>.
+            Estas compañías podían obtener información de los usuarios que les permitía
+            desarrollar “la experiencia Facebook” en sus dispositivos. También les permitía
+            tener acceso a información de los amigos del usuario, incluso si esta persona
+            había aumentado las medidas de seguridad y privacidad en sus perfiles de Facebook.
+            <a class="enlace" href="https://www.nytimes.com/interactive/2018/06/03/technology/facebook-device-partners-users-friends-data.html" target="_blank">Fuente</a>.
+            <br><br>
+
+            En septiembre 2018, Facebook reporta una violación de seguridad en su sistema
+            en la que se ven afectados <b>50 millones</b> de usuarios. La vulnerabilidad se origina
+            en la opción “ver como” de los perfiles de usuarios. Los atacantes encontraron
+            una manera de exportar <i>tokens</i> de acceso, los cuales pueden ser usados para
+            obtener el control sobre las cuentas de los usuarios.
+            <a class="enlace" href="https://www.zdnet.com/article/facebook-discloses-network-breach-affecting-50-million-user-accounts/" target="_blank">Fuente</a>.
+            <br><br>
+
+            En diciembre 2018, una vulnerabilidad fue expuesta dentro del API Facebook
+            Photo, la cual expuso fotos privadas de unos <b>7 millones</b> de usuarios.
+            <a class="enlace" href="https://www.zdnet.com/article/facebook-bug-exposed-private-photos-of-6-8-million-users/" target="_blank">Fuente</a>.
+            <br><br>
+
+            En enero 2019, se descubre que Facebook estaba explotando un error dentro de
+            las políticas de privacidad de <b>iOS</b> en el que distribuían una aplicación de
+            búsqueda utilizando certificados de tipo enterprise. Con este tipo de certificados,
+            la aplicación podría tener derechos <i>“root”</i> o acceso completo a la información
+            del dispositivo, como rastreo constante de la geolocalización, mensajes y
+            archivos multimedia de otras aplicaciones en el dispositivo, etc.<br><br>
+
+            En enero 2019, <b>TechCrunch</b> reporta y expone el programa <i>“Facebook Research”</i>
+            en el que pagaban 20$ mensuales a usuarios de entre 13 y 35 años para instalar
+            una aplicación VPN que permitía a Facebook recuperar prácticamente toda la
+            información sobre cómo se utilizaban los teléfonos de los usuarios. Facebook
+            indicó inicialmente que alrededor del 5% de los usuarios eran jóvenes y
+            menores de edad, sin embargo dos meses después se descubre que en realidad
+            se trataba de un <b>18%</b>.
+            <a class="enlace" href="https://www.zdnet.com/article/facebook-slammed-over-vpn-research-project-that-rewards-teens-for-data/" target="_blank">Fuente</a>.
+            <br><br>
+
+            En marzo 2019 Facebook informa sobre una brecha de seguridad de la cual
+            resultan entre <b>200 y 600 millones</b> de contraseñas de usuarios almacenadas
+            en texto plano (sin ningún tipo de protección), afectando usuarios de
+            Facebook, Facebook Lite e Instagram. Se indica que las contraseñas nunca
+            fueron visibles para nadie fuera de la empresa, sin embargo alrededor
+            de 20000 las empleados tenían acceso a ellas.
+            <a class="enlace" href="https://www.zdnet.com/article/facebook-we-stored-hundreds-of-millions-of-passwords-in-plain-text/" target="_blank">Fuente</a>.
+            <br><br>
+
+            En abril 2019, investigadores descubren bases de datos expuestas
+            públicamente y que contenían alrededor de 150 GB de información
+            de alrededor <b>540 millones</b> de usuarios de Facebook.
+            <a class="enlace" href="https://www.computerweekly.com/news/252461090/Third-party-Facebook-apps-expose-540-million-users-details" target="_blank">Fuente</a>.
+            <br><br>
+          </p>
+
+          <p class="posttext ubunturegular" style="margin-left: 50%;">
+            * * *
+            <br><br>
+          </p>
+
+          <p class="posttext ubunturegular">
+            Podemos ver que la seguridad y la privacidad de los datos confidenciales
+            y potencialmente sensitivos de los usuarios no es algo que se tome
+            como prioridad para esta plataforma de la cual así todos hemos sido
+            parte alguna vez. Esto ha sido tema de polémica y estudio en los
+            últimos años y una de las razones por la cual las reglamentaciones
+            y leyes regionales sobre la protección de la data e información
+            privada de usuarios del internet está cambiando rápidamente.<br><br>
+
+            Por otra parte, un estudio realizado por José González Cabañas,
+            Ángel Cuevas, y Rubén Cuevas de la Universidad Carlos III de
+            Madrid titulado
+            <a class="enlace" href="https://www.usenix.org/conference/usenixsecurity18/presentation/cabanas" target="_blank">
+            “Unveiling and Quantifying Facebook Exploitation of Sensitive Personal Data for Advertising Purposes”
+            </a>
+            en donde los investigadores desarrollan una aplicación
+            para detectar si Facebook utiliza información del perfil,
+            ubicación y data sobre <i>“likes”</i> de los usuarios para
+            luego enviarles publicidad dirigida, violando así la
+            GDPR (legislación europea sobre protección y privacidad de la data online).<br><br>
+
+            En el estudio los investigadores descubrieron que Facebook otorga a
+            los usuarios “etiquetas” dependiendo de sus gustos, páginas a las
+            cuales siguen o dan likes, temas de interés, grupos de amigos,
+            orientación sexual, ubicación, preferencias políticas, religión,
+            raza, poder adquisitivo, entre otras cualidades, todas consideradas
+            como información sensitiva del usuario. Al recopilar toda esta data,
+            se crea un “perfil” que contiene todas las características que hacen
+            único al usuario, sin que el mismo tenga conocimiento de él.<br><br>
+
+            A través de <i>Facebook Ad Manager</i> (plataforma para crear y administrar
+            campañas publicitarias en Facebook), una empresa, asociación o
+            persona puede lanzar una campaña y al momento de configurar la
+            misma éste puede elegir las etiquetas o los intereses de las
+            personas a las cuales la campaña irá dirigida. En otras palabras,
+            Facebook vende a las empresas el “perfil” basado en los intereses
+            de los usuarios utilizando la data que ha sido recopilada sin su
+            permiso anteriormente para que el mismo sea explícitamente víctima
+            de una campaña dirigida, en donde explotan la susceptibilidad del
+            usuario de consumir el producto o la idea que esta vende.<br><br>
+
+            En los resultados del estudio, alrededor de un <b>73%</b> de los usuarios
+            de Facebook en Europa estaban siendo etiquetados (y su data
+            recopilada sin autorización) a través de este sistema, esto
+            representa un <b>40%</b> de la población europea. También fue parte
+            del estudio calcular el precio que podría pagar un tercero con
+            malas intenciones para revelar la identidad de un usuario
+            cualquiera de Facebook, simplemente por las etiquetas que se
+            le han otorgado a través de este sistema, el resultado fue de
+            la mínima suma de €0,015 por usuario. Esto se debe a que el
+            sistema puede otorgar etiquetas que contengan información
+            potencialmente sensitiva (raza, orientación sexual, ubicación,
+            opiniones políticas, entre otros) las cuales pueden exponer la
+            identidad de un usuario en la red.<br><br>
+
+            Crees que merece la pena seguir alimentando esta red social con
+            tus datos, siendo tú el producto principal?<br><br>
+
+            ~ Boris Antonio.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <a class="back ubuntumedium" href="../../templates/blog.html">
+        BACK
+      </a>
+    </div>
+
+  </body>
+</html>

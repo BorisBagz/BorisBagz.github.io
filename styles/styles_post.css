@@ -11,6 +11,15 @@
   margin-left: 28%;
 }
 
+#title_post4{
+  width: 72%;
+  margin-left: 15%;
+}
+
+#thetitle_post4{
+  margin-left: 0%;
+}
+
 .block{
   background-color: #AEC8D9;
   margin-left: 3.5%;
@@ -79,15 +88,17 @@
 .enlace{
   text-decoration: none;
   font-weight: bold;
+  color: #2A6997;
 }
 
 .enlace.link{
   text-decoration: none;
-  color: #0D1D28;
+  color: #B2FBBB;
 }
 
 .enlace:visited{
-  color: #0D1D28;
+  /*color: #0D1D28;*/
+  color: #453054;
   text-decoration: none;
 }
 
@@ -122,6 +133,17 @@
 
   #thetitle_post3{
     margin-left: 25%;
+  }
+
+  #title_post4{
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  #thetitle_post4{
+    margin-left: 1%;
+    font-size: 160%;
+    text-align: center;
   }
 
   .back {
