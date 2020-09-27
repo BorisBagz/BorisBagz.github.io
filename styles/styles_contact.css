@@ -13,6 +13,17 @@
   width: 100%;
 }
 
+.social_entry .htbblock{
+  float: left;
+  width: 30%;
+  margin-left: 5%;
+  padding-top: 3%;
+}
+
+.social_entry .htbblock .htbsignature{
+  width: 60%;
+}
+
 .sendemail{
   text-align:left;
   font-size:160%;
@@ -100,6 +111,13 @@
     float: none;
     width: 25%;
     margin-left: 35%;
+    margin-top: 4%;
+  }
+
+  .social_entry .htbblock{
+    float: none;
+    width: 90%;
+    margin-left: 20%;
     margin-top: 4%;
   }
 }

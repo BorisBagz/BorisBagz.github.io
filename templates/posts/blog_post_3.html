@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boris Antonio's website.</title>
+    <link rel="icon" href="../../images/icon.png">
+    <link rel="stylesheet" href="../../styles/styles_base.css">
+    <link rel="stylesheet" href="../../styles/styles_fonts.css">
+    <link rel="stylesheet" href="../../styles/styles_post.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="../../js/scripts.js"></script>
+  </head>
+  <body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="../../index.html" class="ubuntulight">Home</a>
+        <a href="../../templates/profile.html" class="ubuntulight">Profile</a>
+        <a href="../../templates/academic.html" class="ubuntulight">Academic</a>
+        <a href="../../templates/professional.html" class="ubuntulight">Professional</a>
+        <a href="../../templates/research.html" class="ubuntulight">Research</a>
+        <a href="../../templates/skills.html" class="ubuntulight">Skills</a>
+        <a href="../../templates/blog.html" class="ubuntulight active">Blog</a>
+        <a href="../../templates/contact.html" class="ubuntulight">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="menuMobile()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <div>
+      <a class="back ubuntumedium" href="../../templates/blog.html">
+        BACK
+      </a>
+    </div>
+
+    <div class="block">
+      <div class="post">
+        <div class="logoblock">
+          <img class="logo" src="../../images/logo_trans.png">
+        </div>
+        <div class="titleblock" id="title_post3">
+          <p class="title ubuntumedium" id="thetitle_post3">
+            Fugas de Datos
+          </p>
+        </div>
+        <div class="postblock">
+          <p class="posttext ubunturegular">
+            Cada cierto tiempo leemos o escuchamos que hubo una violación de datos en algún sitio web, o que <i>“hackearon”</i>
+            las bases de datos de una red social y que quedaron expuestas millones de contraseñas de los usuarios, pero
+            alguna vez te has preguntado cómo sucede esto y si tú has sido victima de esto ataques?<br><br>
+
+            En esta tercera entrega explicaremos de qué se tratan los famosos <i>“data breach”</i> o las fugas de datos, la razón por
+            las cuales suceden y cómo saber si nuestro correo es parte de esos millones de correos filtrados en internet.<br><br>
+
+            Una filtración de datos es, como su nombre lo indica, la exposición de data confidencial al dominio público.
+            La información filtrada puede ser código fuente, datos personales, propiedad intelectual, información bancaria,
+            entre otros. Es básicamente la publicación de información que debería tener una exposición limitada o
+            simplemente no debe ser conocida por nadie más que el dueño. En esta entrada nos centraremos en la filtración
+            de datos personales.<br><br>
+
+            Una brecha de seguridad de este tipo puede ocurrir por varias razones, como la exposición voluntaria por
+            parte de alguien que tiene acceso legítimo a la información, como también puede ocurrir debido a un ataque
+            directo a la fuente de información o a una mala configuración de los sistemas que resguardan o almacenan la
+            data. Las mayores filtraciones de datos de los últimos años se han dado debido al uso de configuraciones
+            inadecuadas en las distintas bases de datos o en los servidores FTP (servidores para almacenar y compartir
+            archivos) o en servidores de acceso remoto.<br><br>
+
+            Por otro lado, la mayoría (sino todas) de las distintas bases de datos y servidores FTP permiten la
+            implementación de métodos de autenticación al momento de acceder a la data, o sea que para poder acceder
+            a ella se necesita algún tipo de contraseña, llave o <i>token</i>, dándole así un nivel de seguridad bastante
+            completo, mas no suficiente. Pero siendo esta una medida de seguridad básica, si alguien almacena
+            información potencialmente sensitiva es obligatorio configurar el acceso con alguno de estos métodos
+            de autenticación.<br><br>
+
+            Como es de imaginarse, no todos las personas que administran base de datos o los sitios web o empresas que
+            almacenan información sensitiva sobre sus usuarios, utilizan o implementan métodos de autenticación. Esto
+            quiere decir que si la información es accesible desde el internet, entonces cualquiera persona que conozca
+            la dirección IP del servidor o base de datos tendrá acceso libre e ilimitado a la información, que en un
+            principio debería ser confidencial. También existen otras razones en las que los servidores pueden quedar
+            expuestos a vulnerabilidades, como por ejemplo no hacer las actualizaciones necesaria en los sistemas, o
+            la falta de aplicación de parches de seguridad en las versiones disponibles, o la exposición innecesaria
+            de este tipo de servicios en internet, y un gran etcétera.<br><br>
+
+            Existen sitios web (como <a class="enlace" href="https://www.shodan.io/" target="_blank">Shodan</a>,
+            <a class="enlace" href="https://censys.io/" target="_blank">Censys</a>,
+            <a class="enlace" href="https://fr.tenable.com/products/nessus?tns_redirect=true" target="_blank">Nessus</a>,
+            <a class="enlace" href="https://www.zoomeye.org/" target="_blank">Zoomeye</a>)
+            que permiten buscar direcciones IP alrededor del mundo, y ver qué tipo de servicios están alojados
+            y son accesibles a través de estas direcciones. Por ejemplo podemos realizar una búsqueda
+            personalizada para buscar todos las direcciones IP en centro América en las que existan
+            bases de datos MySQL. Con los resultados podemos ver cuales de estos
+            servidores requieren de alguna autenticación antes de acceder a ellos, y si alguno de ellos está
+            abierto (sin autenticación) entonces tendríamos acceso libre a la información que almacenan, solamente
+            usando un par de comandos. Así de fácil es cuando no hay ninguna medida de seguridad por delante.<br><br>
+
+            En los últimos años han habido cientos de filtraciones de datos de empresas y sitios web importantes,
+            les dejo una lista ordenada de los más relevantes
+            (<a class="enlace" href="https://www.informationisbeautiful.net/visualizations/worlds-biggest-data-breaches-hacks/" target="_blank">fuente</a>):<br><br>
+
+          </p>
+
+          <ul class="posttext ubunturegular">
+            <li><b>Yahoo – 2013-2014</b> – 3 mil millones de cuentas filtradas, incluyendo
+                nombres completos de los usuarios, correo electrónico, fecha de nacimiento,
+                números de teléfonos y contraseñas (la mayoría en hash o encriptadas).
+            </li><br>
+            <li><b>Marriot International – 2014-2018</b> – 500 millones de cuentas de usuarios de
+              los hoteles de la cadena Marriot. Algunas víctimas solo vieron expuestos sus
+              nombres y direcciones, sin embargo para muchos otros fue peor, filtrándose
+              sus números de pasaporte, tarjetas de crédito, información de sus viajes, entre otros.
+            </li><br>
+            <li><b>Adult Friend Finder – 2016</b> – 412 millones de entradas, o 20 años de información de
+              los usuarios de este sitio se filtraron, en el que se podía encontrar nombre de usuario,
+              información de contacto y contraseñas.
+            </li><br>
+            <li><b>Ebay – 2014</b> – 145 millones de usuarios vieron su información comprometida cuando se
+              filtraron sus nombres, direcciones, números de teléfono y contraseñas encriptadas.
+            </li><br>
+            <li><b>Uber – 2016</b> – 57 millones de usuarios y 600 mil choferes de Uber fueron víctimas
+              de esta filtración en la que se expusieron sus nombres, direcciones, correos electrónicos
+              y números de teléfonos. Cabe mencionar que Uber no hizo pública la filtración
+              si no hasta un año después!
+            </li><br>
+            <li><b>Twitter</b> – En 2018 Twitter anuncia que la información de unos 330 millones de usuarios
+              habría quedado expuesta en los servidores internos de la empresa. Los nombres de usuario
+              y contraseñas no habían sido encriptados y podían entonces ser vistos por cualquier
+              colaborador interno. Sin embargo, según sus informes, esta información no fue filtrada
+              ni robada por nadie fuera de la empresa.
+            </li>
+          </ul>
+
+          <div class="img_post_block">
+            <img class="img" src="../../images/img_post3.png">
+          </div>
+
+          <p class="posttext ubunturegular">
+            Cabe mencionar que en el año 2019, fue publicado un reporte sobre un investigador alemán que
+            encontró un servidor <i>ElasticSearch</i> (un tipo de base de datos) abierto y accesible, almacenando
+            información sensitiva de alrededor de 3,8 millones de personas. Se cree que esto se trata de
+            información de panameños. Puedes leer una nota al respecto
+            <a class="enlace" href="https://safeshadow.com/seguridad-informatica/datos-sensitivos-de-millones-de-panamenos-expuestos-en-brecha-de-seguridad/" target="_blank">aquí!</a><br><br>
+
+            Ahora que sabemos cómo y porqué suceden las violaciones de datos, cómo saber si somos victima
+            de ellos? Por suerte existe
+            <a class="enlace" href="https://haveibeenpwned.com/" target="_blank">haveibeenpwned!</a>
+            Este sitio web fue creado por
+            <a class="enlace" href="https://twitter.com/troyhunt" target="_blank">Troy Hunt</a>,
+            un profesional de la seguridad informática dedicado en la protección de datos y en el estudio
+            de este tipo de filtraciones. <i>Have i been pwned?</i> Recolecta información de cientos de filtraciones
+            de datos que ocurren a diario y permite a las personas verificar si sus correos se encuentran
+            dentro de estos sets de datos. Por seguridad, Troy no almacena ninguna contraseña en su sitio web,
+            sólo las direcciones de correo electrónico que aparecen en las filtraciones.<br><br>
+
+            Por el momento, <i>haveibeenpwned</i> almacena información de más de 100 mil filtraciones, incluyendo
+            casi 400 sitios web almacenando la data de más de 8 mil millones de cuentas! Les recomiendo
+            que entren y verifiquen de manera periódica si su correo electrónico aparece en alguna de estas filtraciones.
+
+            ~ Boris Antonio.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <a class="back ubuntumedium" href="../../templates/blog.html">
+        BACK
+      </a>
+    </div>
+
+  </body>
+</html>
