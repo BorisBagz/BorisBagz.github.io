@@ -8,7 +8,15 @@
 }
 
 #title_post4{
-  margin-right: 3%;
+  margin-right: 2%;
+}
+
+#title_post5{
+  margin-right: 46%;
+}
+
+#title_post6{
+  margin-right: 50%;
 }
 
 .posts{
@@ -82,6 +90,18 @@
     font-size: 80%;
     width: 95%;
     text-align: center;
+  }
+
+  #title_post5{
+    float: none;
+    margin-left: 15%;
+    width: 80%;
+  }
+
+  #title_post6{
+    float: none;
+    margin-left: 17%;
+    width: 80%;
   }
 
   .posts .logoblock{

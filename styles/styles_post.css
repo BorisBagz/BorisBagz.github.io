@@ -20,6 +20,24 @@
   margin-left: 0%;
 }
 
+#title_post5{
+  width: 30%;
+  margin-left: 37%;
+}
+
+#thetitle_post5{
+  margin-left: 0%;
+}
+
+#title_post6{
+  width: 30%;
+  margin-left: 40%;
+}
+
+#thetitle_post6{
+  margin-left: 0%;
+}
+
 .block{
   background-color: #AEC8D9;
   margin-left: 3.5%;
@@ -144,6 +162,16 @@
     margin-left: 1%;
     font-size: 160%;
     text-align: center;
+  }
+
+  #title_post5{
+    width: 80%;
+    margin-left: 15%;
+  }
+
+  #title_post6{
+    width: 80%;
+    margin-left: 20%;
   }
 
   .back {
