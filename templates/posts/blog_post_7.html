@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boris Antonio's website.</title>
+    <link rel="icon" href="../../images/icon.png">
+    <link rel="stylesheet" href="../../styles/styles_base.css">
+    <link rel="stylesheet" href="../../styles/styles_fonts.css">
+    <link rel="stylesheet" href="../../styles/styles_post.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="../../js/scripts.js"></script>
+  </head>
+  <body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="../../index.html" class="ubuntulight">Home</a>
+        <a href="../../templates/profile.html" class="ubuntulight">Profile</a>
+        <a href="../../templates/academic.html" class="ubuntulight">Academic</a>
+        <a href="../../templates/professional.html" class="ubuntulight">Professional</a>
+        <a href="../../templates/research.html" class="ubuntulight">Research</a>
+        <a href="../../templates/skills.html" class="ubuntulight">Skills</a>
+        <a href="../../templates/blog.html" class="ubuntulight active">Blog</a>
+        <a href="../../templates/contact.html" class="ubuntulight">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="menuMobile()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <div>
+      <a class="back ubuntumedium" href="../../templates/blog.html">
+        BACK
+      </a>
+    </div>
+
+    <div class="block">
+      <div class="post">
+        <div class="logoblock">
+          <img class="logo" src="../../images/logo_trans.png">
+        </div>
+        <div class="titleblock" id="title_post7">
+          <p class="title ubuntumedium" id="thetitle_post7">
+            VPNs y el teletrabajo
+          </p>
+        </div>
+        <div class="postblock">
+          <p class="posttext ubunturegular">
+
+            Seguro han escuchado últimamente hablar mucho de VPN, principalmente
+            porque muchas empresas e instituciones están instaurando la modalidad
+            del teletrabajo para que podamos quedarnos en casa a razón del COVID-19,
+            ¿pero sabes qué es? ¿Cómo funciona y por qué es la herramienta perfecta
+            para trabajar desde casa?<br><br>
+
+            <a class = "ubuntumedium">Redes públicas y privadas.</a><br>
+
+            Antes de explicar qué es un VPN es importante conocer los conceptos
+            de redes públicas y privadas. Una <b>red privada</b> es una red que utiliza
+            rangos de direcciones IP reservados (es como el nombre o el ID de tu
+            dispositivo), la cual puede ser utilizada ya sea en la red de tu casa,
+            de tu oficina o de alguna infraestructura empresarial. Esto quiere
+            decir que dentro de tu casa o tu oficina los dispositivos que se
+            conecten a la red local podrán tener direcciones IP dentro de los
+            siguientes rangos: <b>10.0.0.0, 172.16.0.0</b> o <b>192.168.0.0</b>, los cuales
+            son los rangos reservados para direcciones privadas.<br><br>
+
+            Una <b>red pública</b> es una red con direcciones distintas a los tres rangos
+            previamente mencionados, pueden tener cualquier otro rango que exista
+            y generalmente se utilizan para navegar por internet. Obtenemos una
+            dirección de la red pública cuando contratamos un servicio con
+            nuestro proveedor de internet, o cuando usamos la data de nuestros teléfonos.<br><br>
+
+            Cabe destacar que los dispositivos que tengan alguna de las
+            direcciones privadas no pueden navegar al internet, para ello
+            es necesario un proceso de traducción de direcciones, que transforma
+            tu IP privado a público. <b>Sólo los dispositivos con direcciones
+            públicas pueden salir a internet.</b><br><br>
+
+            En pocas palabras, cuando tu teléfono y tu laptop están conectados
+            a la red de tu casa o de la oficina, los dos dispositivos se conocen
+            y pueden comunicarse entre sí porque están dentro de la misma red
+            privada y tienen direcciones IP reservadas (alguno de los tres
+            grupos que mencionamos antes). Sin embargo, para poder navegar
+            al internet es necesario que los dispositivos también tengan una
+            dirección pública, por eso se hace la traducción de direcciones,
+            otorgándole una dirección pública al dispositivo. Cuando estamos
+            en casa este trabajo lo hace generalmente el <i>router</i> (en esta
+            entrada también lo llamaremos como <i>Gateway</i>).<br><br>
+          </p>
+
+          <div class="img_post_block">
+            <img class="img" src="../../images/img_post7_1.png">
+          </div><br>
+
+          <p class="posttext ubunturegular">
+
+            <a class = "ubuntumedium">Virtual Private Network Empresarial.</a><br>
+
+            Bien, si ya tenemos claro el concepto de redes públicas y privadas
+            es hora de explicar qué es un <b>VPN</b> o <i>Virtual Private Network</i> por sus
+            siglas en inglés. Se podría definir como <i>“la extensión de una red
+            privada a través del internet.”</i> El VPN te permite conectar dos (o más)
+            redes privadas que estén separadas una de la otra como si fuesen
+            una sola, utilizando el internet. Esto quiere decir que si
+            establecemos un VPN desde nuestra laptop en casa y la red de nuestra
+            oficina, al conectarnos, la laptop obtendría entonces una dirección
+            IP privada de la red del trabajo, y sería como si la laptop
+            estuviese conectada dentro de la red privada de la oficina, sólo
+            que desde nuestra casa.<br><br>
+
+            Para lograr esto, los <i>routers</i> o <i>gateways</i> (los dispositivos que
+            generalmente hacen el trabajo de traducir las direcciones de públicas
+            a privadas) establecen lo que se llama un túnel VPN. El mismo va
+            a indicar que la comunicación entre los dos sitios se va a dar
+            como si fuese uno sólo y no hacen "la traducción" (es más complejo
+            que esto, pero básicamente ese es el resultado). El túnel también
+            va a proteger y encriptar todo el tráfico o la información que
+            pase por allí, de esta manera los únicos que pueden ver o leer el
+            contenido de la comunicación son los miembros de las redes
+            privadas (la casa y la oficina).<br><br>
+
+          </p>
+
+          <div class="img_post_block">
+            <img class="img" src="../../images/img_post7_2.png">
+          </div>
+
+          <p class="posttext ubunturegular">
+
+            Cuando nuestra laptop se conecte al túnel VPN, podremos comunicarnos
+            con los dispositivos y sistemas que sólo están disponibles dentro
+            de la red de la oficina (sistemas de correo interno, sistema de
+            marcación, aplicaciones para uso interno, y un largo etcétera).
+            ¡Es por esto que es la opción perfecta para trabajar desde casa!<br><br>
+
+            <a class = "ubuntumedium">VPN Personal</a><br>
+
+            Debemos mencionar que existen dos tipos de uso para la tecnología
+            de VPN, también existen los VPN personales. En los últimos años
+            se han popularizado distintos servicios de VPN para uso personal,
+            algunos gratuitos y otros de paga, los cuales pueden ser utilizados
+            en el hogar desde la computadora personal o desde el teléfono móvil.
+            Muchos de los usuarios de estos servicios de VPN lo utilizan para
+            saltarse restricciones geográficas para servicios de <i>streaming</i>,
+            para videojuegos o cualquier otro servicio a través del internet,
+            sin embargo otros usuarios lo utilizan pues prefieren que su
+            tráfico por internet permanezca privado y no pueda ser interceptado
+            por terceros, como su proveedor de internet, <i>hackers</i> o algún otro
+            ente malicioso.<br><br>
+
+            El concepto es el mismo, pero el objetivo distinto. Si establezco un
+            túnel VPN personal entre mi computadora y un servidor en otra parte
+            del mundo, podríamos navegar al internet como si nosotros estuviésemos
+            en la misma región que ese otro servidor, además no habría manera
+            de rastrear que nuestra navegación por internet viene desde nuestra
+            casa. ¡Hacer esto no siempre es legal, dependiendo del uso que le demos!<br><br>
+
+          </p>
+
+          <div class="img_post_block">
+            <img class="img" src="../../images/img_post7_3.png">
+          </div>
+
+          <p class="posttext ubunturegular">
+
+            Estos son los dos usos principales del VPN, una tecnología que tiene
+            muchos años pero que cada vez se vuelve más útil y que quizás en un
+            futuro sea indispensable implementar en las empresas a nivel mundial.<br><br>
+
+            ~ Boris Antonio.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <a class="back ubuntumedium" href="../../templates/blog.html">
+        BACK
+      </a>
+    </div>
+
+  </body>
+</html>

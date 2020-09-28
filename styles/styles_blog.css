@@ -19,6 +19,10 @@
   margin-right: 50%;
 }
 
+#title_post7{
+  margin-right: 43%;
+}
+
 .posts{
   background-color: #AEC8D9;
   margin-left: 3.5%;
@@ -101,6 +105,12 @@
   #title_post6{
     float: none;
     margin-left: 17%;
+    width: 80%;
+  }
+
+  #title_post7{
+    float: none;
+    margin-left: 12%;
     width: 80%;
   }
 

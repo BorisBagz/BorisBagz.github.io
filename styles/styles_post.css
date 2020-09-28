@@ -38,6 +38,15 @@
   margin-left: 0%;
 }
 
+#title_post7{
+  width: 30%;
+  margin-left: 35%;
+}
+
+#thetitle_post7{
+  margin-left: 0%;
+}
+
 .block{
   background-color: #AEC8D9;
   margin-left: 3.5%;
@@ -172,6 +181,11 @@
   #title_post6{
     width: 80%;
     margin-left: 20%;
+  }
+
+  #title_post7{
+    width: 80%;
+    margin-left: 11%;
   }
 
   .back {
