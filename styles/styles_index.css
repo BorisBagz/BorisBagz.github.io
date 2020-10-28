@@ -32,9 +32,25 @@
   padding-top: 0%;
 }
 
+.counter{
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+}
+
 @media screen and (max-width: 600px) {
-  .nameblock .name{
+  .nameblock{
+    margin-bottom: 0%;
+    padding-bottom: 0%;
     margin-left: 0%;
+  }
+
+  .titleblock{
+    margin-top: 0%;
+  }
+
+  .nameblock .name{
+    margin-left: 10%;
     margin-top: 50%;
     margin-right: 5%;
     font-size: 280%;
