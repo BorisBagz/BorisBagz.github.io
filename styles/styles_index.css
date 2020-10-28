@@ -1,0 +1,60 @@
+.nameblock{
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+  margin-left: 10%;
+}
+
+.nameblock .name{
+  margin-left: 23%;
+  margin-top: 15%;
+  margin-right: 25%;
+  font-size: 400%;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+}
+
+.lineblock .lines{
+  margin-top: 0%;
+  margin-left: 25%;
+  margin-right: 0%;
+  font-size: 200%;
+  margin-bottom: 0.5%;
+}
+
+.titleblock{
+  margin-top: 0%;
+}
+
+.titleblock .title{
+  font-size: 120%;
+  margin-left: 29.5%;
+  margin-top: 0%;
+  padding-top: 0%;
+}
+
+@media screen and (max-width: 600px) {
+  .nameblock .name{
+    margin-left: 0%;
+    margin-top: 50%;
+    margin-right: 5%;
+    font-size: 280%;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+  }
+
+  .lineblock .lines{
+    margin-top: 0%;
+    margin-left: 5%;
+    margin-right: 0%;
+    font-size: 122%;
+    margin-bottom: 0.5%;
+  }
+
+  .titleblock .title{
+    font-size: 85%;
+    margin-left: 8%;
+    margin-top: 0%;
+    padding-top: 0%;
+  }
+
+}
