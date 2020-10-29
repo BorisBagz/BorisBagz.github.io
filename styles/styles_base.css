@@ -58,12 +58,33 @@ p {
 }
 
 @media screen and (max-width: 600px) {
+  .topnav a {
+    color: white;
+    text-align: left;
+    width: 72%;
+  }
+
+  .topnav a.active {
+    background-color: #62B4CC;
+    color: white;
+  }
+
+  .topnav .icon {
+    display: none;
+    width: 10%;
+    text-align: center;
+  }
+
   .topnav a:not(:first-child) {
     display: none;
   }
   .topnav a:first-child {
-    padding: 3% 6%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
+
   .topnav a.icon {
     float: right;
     display: block;
@@ -75,19 +96,28 @@ p {
   .topnav.responsive {
     position: relative;
   }
+
   .topnav.responsive .icon {
     position: absolute;
     float: right;
-    padding: 20px;
+    padding-top: 3%;
+    padding-left: 3.5%;
+    padding-bottom: 3.2%;
+    padding-right: 3.5%;
     right: 0;
-    top: 0;
+    top: 0%;
+    width: 10%;
   }
+
   .topnav.responsive a {
     float: none;
     text-align: center;
     display: block;
-    padding: 3% 25%;
-    width: 15%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 25%;
+    padding-right: 25%;
+    width: 33%;
     font-size: 120%;
     text-decoration: none;
   }
