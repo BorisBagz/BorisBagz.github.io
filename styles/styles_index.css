@@ -50,27 +50,31 @@
   }
 
   .nameblock .name{
-    margin-left: 10%;
+    margin-left: 0%;
+    padding-left: 15%;
     margin-top: 50%;
-    margin-right: 5%;
-    font-size: 280%;
+    margin-right: 0%;
+    font-size: 220%;
     padding-bottom: 0%;
     margin-bottom: 0%;
   }
 
   .lineblock .lines{
     margin-top: 0%;
-    margin-left: 5%;
+    margin-left: 0%;
     margin-right: 0%;
-    font-size: 122%;
+    padding-left: 10%;
+    font-size: 100%;
     margin-bottom: 0.5%;
   }
 
   .titleblock .title{
-    font-size: 85%;
-    margin-left: 8%;
+    font-size: 70%;
+    margin-left: 0%;
     margin-top: 0%;
     padding-top: 0%;
+    padding-left: 12%;
+
   }
 
 }
