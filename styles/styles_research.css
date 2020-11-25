@@ -1,0 +1,126 @@
+/*BEGINNING Research*/
+#border_ey{
+  margin-bottom: 2%;
+}
+
+.research {
+  background-color: #AEC8D9;
+  overflow: auto;
+  margin-left: 3.5%;
+  margin-right: 3.5%;
+}
+
+.research .text{
+  width: 100%;
+  margin-top: 2%;
+}
+
+.research .nameblock{
+  margin-left:3%;
+  width: 90%;
+}
+
+.research .nameblock .name{
+  font-size: 180%;
+  color: #1B3B51;
+  margin-bottom: 0%;
+}
+
+.research .institutionblock{
+  margin-left:3%;
+  margin-top: 0.5%;
+  width: 90%;
+}
+
+.research .institutionblock .institution{
+  margin-top: 0%;
+  margin-bottom: 0%;
+  font-size:150%;
+  color: #1B3B51;
+}
+
+.research .locationblock{
+  margin-left:3%;
+  margin-top:0.5%;
+  width: 90%;
+}
+
+.research .locationblock .location{
+  font-size:130%;
+  margin-top:0%;
+  margin-bottom:0%;
+  color: #1B3B51;
+}
+
+.buttonblock{
+  text-align: center;
+}
+
+.buttonblock .button_download{
+  background-color: #1B3B51;
+  border: none;
+  color: white;
+  padding: 1% 2%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 100%;
+  cursor: pointer;
+  margin-bottom: 1%;
+}
+
+@media screen and (max-width: 600px) {
+  .research .text{
+    text-align: center;
+    width: 100%;
+  }
+
+  .research .nameblock{
+    margin: 0%;
+    width: 100%
+  }
+
+  .research .nameblock .name{
+    font-size: 150%;
+    color: #1B3B51;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .research .institutionblock{
+    margin-left:0%;
+    margin-top: 2%;
+    width: 100%;
+  }
+
+  .research .institutionblock .institution{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size:130%;
+    color: #1B3B51;
+  }
+
+  .research .locationblock{
+    margin-left:0%;
+    margin-top:2%;
+    margin-bottom: 4%;
+    width: 100%;
+  }
+
+  .research .locationblock .location{
+    font-size:130%;
+    margin-top:0%;
+    margin-bottom:0%;
+    color: #1B3B51;
+  }
+
+  #border_ey{
+    margin-bottom: 4%;
+  }
+
+  .buttonblock .button_download{
+    margin-bottom: 4%;
+  }
+
+}
+/*END Research*/
