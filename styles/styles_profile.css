@@ -26,13 +26,26 @@
   text-justify:inter-word;
   font-size:140%;
   color: #1B3B51;
+  line-height: 120%;
 }
 
-.profile .button_download{
-   width: 12%;
-   margin-left: 45%;
-   padding-bottom: 2%;
+.buttonblock{
+  text-align: center;
 }
+
+.buttonblock .button_download{
+  background-color: #1B3B51;
+  border: none;
+  color: white;
+  padding: 1% 2%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 100%;
+  cursor: pointer;
+  margin-bottom: 1%;
+}
+
 
 @media screen and (max-width: 600px) {
   .profile .photoblock{
@@ -59,8 +72,8 @@
     font-size:140%;
   }
 
-  .profile .button_download{
-     margin-left: 35%;
-     width: 40%;
+  .buttonblock .button_download{
+    margin-bottom: 3%;
   }
+
 }
