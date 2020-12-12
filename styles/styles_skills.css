@@ -1,0 +1,193 @@
+/*BEGINNING skills*/
+.skill {
+  background-color: #AEC8D9;
+  overflow: auto;
+  margin-left: 3.5%;
+  margin-right: 3.5%;
+}
+
+#francesblock{
+  margin-top: 10%;
+}
+
+.skill .languages_block{
+  margin-left: 3%;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+}
+
+.skill .languages_block .languages_title{
+  font-size: 230%;
+  color: #1b3b51;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+  width: 20%;
+}
+
+.skill .languages_block .idioma_block{
+  margin-top: 1%;
+  padding-top: 0%;
+}
+
+.skill .languages_block .idioma_block .idioma{
+  font-size: 170%;
+  color: #1b3b51;
+  margin-top: 0%;
+  padding-top: 0%;
+  width: 40%;
+}
+
+#exam{
+  font-size: 70%;
+}
+
+.calif{
+  margin-right:0%;
+  width: 100%;
+}
+
+.calif .block1{
+  width: 20%;
+  margin-left: 5%;
+}
+
+#firsstar{
+  margin-left: 15%;
+}
+
+.calif .block1 .estrellablock{
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.estrella{
+  width: 100%;
+}
+
+.calif .block1 .aptitud{
+  text-align: center;
+  font-size: 140%;
+  color: #1b3b51;
+}
+
+#lastblock{
+  margin-bottom: 3%;
+}
+
+.skill .csi_block{
+  margin-left: 3%;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+}
+
+.skill .csi_block .csi_title{
+  font-size: 230%;
+  color: #1b3b51;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+  width: 60%;
+}
+
+.skill .technologies_block{
+  width: 96%;
+  text-align: justify;
+}
+
+.skill .technologies_block .technologies{
+  font-size: 170%;
+  color: #1b3b51;
+  line-height: 150%;
+}
+
+.skill .dev_block .dev_title{
+  font-size: 200%;
+  color: #1b3b51;
+  margin-bottom: 2%;
+  padding-bottom: 0%;
+  width: 60%;
+}
+
+.skill .dev_block .langblock{
+  width: 20%;
+  margin-left: 0%;
+}
+
+.skill .dev_block .langblock .estrellablockdev{
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.estrelladev{
+  width: 100%;
+}
+
+.skill .dev_block .langblock .language{
+  text-align: center;
+  font-size: 140%;
+  color: #1b3b51;
+}
+
+#filabajo{
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+
+@media screen and (max-width: 600px) {
+
+  #francesblock{
+    margin-top: 20%;
+  }
+
+  .skill .languages_block .idioma_block .idioma{
+    width: 60%;
+  }
+
+  #firsstar{
+    margin-left: 5%;
+  }
+
+  .calif .block1 .estrellablock{
+    width: 90%;
+  }
+
+  .calif .block1 .aptitud{
+    font-size: 120%;
+  }
+
+  #laststar{
+    margin-left: 30%;
+  }
+
+  #lastblock{
+    margin-bottom: 5%;
+  }
+
+  .skill .csi_block .csi_title{
+    font-size: 190%;
+    width: 95%;
+  }
+
+  .skill .technologies_block .technologies{
+    font-size: 130%;
+  }
+
+  .skill .dev_block{
+    width: 95%;
+  }
+
+  .skill .dev_block .dev_title{
+    font-size: 180%;
+  }
+
+  .skill .dev_block .langblock .estrellablockdev{
+    width: 80%;
+  }
+
+  .skill .dev_block .langblock .language{
+    font-size: 100%;
+  }
+}
+/*END skills*/
